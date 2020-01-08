@@ -1,0 +1,14 @@
+nav.navbar.navigation
+  .brand
+    h1
+      a(href='#{siteUrl}/') #{brandTitle}
+    h2 #{brandSubtitle}
+  
+  button.hamburger.hamburger--minus.toggler-about(aria-expanded='false', aria-controls='menu')
+    span.hamburger-box
+      span.hamburger-inner
+  
+  #menu(hidden)
+    ul.navbar-nav
+      +main-nav(navItems, slug)
+    include _contact.jade

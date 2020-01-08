@@ -1,0 +1,49 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Maison-agence Hérard & Da Costa"
+
+block content
+  article.project-content(itemtype='https://schema.org/CreativeWork')
+    header.project-header
+      +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop='headline') #{pageTitle}
+      .infos
+        | maison d’habitation + cabinet d’architecture / neuville-sur-seine (10) / 2009 / 317 m² shob / 210 000 € ht
+      
+    .desc(itemprop='text')
+      .col.col-overflow.close
+        p
+          | Le terrain se situe dans un ancien chemin de potagers, constitué de parcelles longues et étroites, entre le cœur du village et une cote de vignes de Champagne. Il possédait un verger au fond que nous voulions à tout prix préserver. Contraint par un terrain de 15 mètres de large, le bâtiment se développe en longueur en s'arrêtant devant le verger, tout en suivant le mouvement des rayons de vignes, perpendiculaire à la côte.
+        p
+          | Nous avons mis en œuvre une construction légère en structure acier. Cinq travées de 6 mètres sur 7,5 mètres de large recouvertes en alternance par du polycarbonate transparent et du bardage en aluminium.
+      .col.col-overflow.close
+        p
+          | Le terrain se situe dans un ancien chemin de potagers, constitué de parcelles longues et étroites, entre le cœur du village et une cote de vignes de Champagne. Il possédait un verger au fond que nous voulions à tout prix préserver. Contraint par un terrain de 15 mètres de large, le bâtiment se développe en longueur en s'arrêtant devant le verger, tout en suivant le mouvement des rayons de vignes, perpendiculaire à la côte.
+        p
+          | Nous avons mis en œuvre une construction légère en structure acier. Cinq travées de 6 mètres sur 7,5 mètres de large recouvertes en alternance par du polycarbonate transparent et du bardage en aluminium.
+      .col.col-overflow.close
+        p
+          | Le terrain se situe dans un ancien chemin de potagers, constitué de parcelles longues et étroites, entre le cœur du village et une cote de vignes de Champagne. Il possédait un verger au fond que nous voulions à tout prix préserver. Contraint par un terrain de 15 mètres de large, le bâtiment se développe en longueur en s'arrêtant devant le verger, tout en suivant le mouvement des rayons de vignes, perpendiculaire à la côte.
+        p
+          | Nous avons mis en œuvre une construction légère en structure acier. Cinq travées de 6 mètres sur 7,5 mètres de large recouvertes en alternance par du polycarbonate transparent et du bardage en aluminium.
+
+    section.grid
+      .col-2
+        +poster('PHOTOS-02.jpg')
+      .col-4
+        +poster('PHOTOS-03.jpg')
+      .col-4
+        +poster('PHOTOS-04.jpg')
+      .col-2
+        +poster('PHOTOS-05.jpg')
+      .col-3
+        +poster('PHOTOS-06.jpg')
+      .col-3
+        +poster('PHOTOS-07.jpg')
+      .col-6
+        +poster('DESSINS.jpg')
+
+
+  

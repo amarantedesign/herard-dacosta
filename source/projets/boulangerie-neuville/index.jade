@@ -1,0 +1,80 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Boulangerie Éric &amp; Jacqueline"
+
+block content
+  article.project-content(itemtype='https://schema.org/CreativeWork')
+    header.project-header
+      +poster('PHOTOS-03.jpg')
+      h1.project-title(itemprop='headline') #{pageTitle}
+      .infos
+        | boulangerie / Aube (10) / mars 2013 - juillet 2013 / 240 m² shob / 230 000 Euros ht
+    .desc(itemprop='text')
+      .col.col-overflow.close
+        p
+          | Situé le long de la RN71, le bâtiment devait attirer l'attention des automobilistes.
+          br
+          | Le budget étant très restreint, il fallait trouver une solution astucieuse pour créer un bâtiment 'extra-ordinaire' sans que cela n'engage beaucoup de frais. 
+          br
+          | Un système de volets à vérin, inspirés des stands des marchés en plein air, offre plusieurs avantages :
+        ul
+          li attirer l'attention des passants, 
+          li faire savoir si le magasin est ouvert, 
+          li sécuriser davantage le bâtiment fermé, 
+          li créer un espace extérieur abrité.
+        p
+          | Le bâtiment est entièrement recouvert par un bardage translucide (40% de diffusion) pour alléger sa silhouette.
+          br
+          | La nuit, il se transforme en parallélépipède lumineux.
+      .col.col-overflow.close
+        p
+          | Situé le long de la RN71, le bâtiment devait attirer l'attention des automobilistes.
+          br
+          | Le budget étant très restreint, il fallait trouver une solution astucieuse pour créer un bâtiment 'extra-ordinaire' sans que cela n'engage beaucoup de frais. 
+          br
+          | Un système de volets à vérin, inspirés des stands des marchés en plein air, offre plusieurs avantages :
+        ul
+          li attirer l'attention des passants, 
+          li faire savoir si le magasin est ouvert, 
+          li sécuriser davantage le bâtiment fermé, 
+          li créer un espace extérieur abrité.
+        p
+          | Le bâtiment est entièrement recouvert par un bardage translucide (40% de diffusion) pour alléger sa silhouette.
+          br
+          | La nuit, il se transforme en parallélépipède lumineux.
+      .col.col-overflow.close
+        p
+          | Situé le long de la RN71, le bâtiment devait attirer l'attention des automobilistes.
+          br
+          | Le budget étant très restreint, il fallait trouver une solution astucieuse pour créer un bâtiment 'extra-ordinaire' sans que cela n'engage beaucoup de frais. 
+          br
+          | Un système de volets à vérin, inspirés des stands des marchés en plein air, offre plusieurs avantages :
+        ul
+          li attirer l'attention des passants, 
+          li faire savoir si le magasin est ouvert, 
+          li sécuriser davantage le bâtiment fermé, 
+          li créer un espace extérieur abrité.
+        p
+          | Le bâtiment est entièrement recouvert par un bardage translucide (40% de diffusion) pour alléger sa silhouette.
+          br
+          | La nuit, il se transforme en parallélépipède lumineux.
+    
+    section.grid
+        .col-2
+          +poster('PHOTOS-06.jpg')
+        .col-2
+          +poster('PHOTOS-05.jpg')
+        .col-2
+          +poster('PHOTOS-02.jpg')
+        .col-3
+          +poster('PHOTOS-04.jpg')
+        .col-3
+          +poster('PHOTOS-01.jpg')
+        .col-6.contain
+          +poster('FACADES.jpg')
+        .col-3
+          +poster('PHOTOS-07.jpg')
+        .col-3.contain
+          +poster('PLANS.jpg')

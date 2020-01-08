@@ -1,0 +1,85 @@
+
+// Color system
+// ==================================================
+$gray-400: #D8D8D8;
+$gray-600: #6c757d;
+$gray-900: #212529;
+
+$primary: #c00;
+$secondary: $gray-600;
+
+// Options
+// ==================================================
+$enable-rounded: false;
+$enable-grid-classes: false;
+$enable-responsive-font-sizes: true;
+
+// Settings
+// ==================================================
+$breakpoint-main: 40rem;
+$grid-gutter-width: 10px;
+$header-height: 3.125rem;
+
+$site-gutter-x: 30px; //$grid-gutter-width / 2;
+$site-gutter-x-sm: 15px;
+$site-gutter-y: $grid-gutter-width;
+
+$poster-ratio: percentage(8 / 15); //! -> ratio 15 / 8
+$poster-ratio-sm: percentage(9 / 13); //! -> ratio 15 / 10
+
+$row-height-sm: 9rem; //12vh;
+$row-height-lg: 34.375rem;
+
+// Body
+// ==================================================
+$body-color: $gray-900;
+
+$header-background : rgba(var(--body-bg-rgb), 0.9);
+
+// Links
+// ==================================================
+//
+// Style anchor elements.
+
+$link-color: $secondary;
+$link-decoration: none;
+$link-hover-color: lighten($link-color, 35%);
+$link-hover-decoration: underline;
+
+// Typography
+// ==================================================
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$font-size-base: 0.9rem;
+
+$headings-font-weight: 400;
+$h2-font-size: $font-size-base * 1.25;
+$h3-font-size: $font-size-base * 1.125;
+
+$small-font-size: 90%;
+
+$paragraph-margin-bottom: 0.7rem;
+$line-height-base: 1.45;
+
+// Navs
+// ==================================================
+$nav-link-padding-y: .5rem;
+$nav-link-padding-x: 1rem;
+
+// Hamburger Settings
+// ==================================================
+$hamburger-padding-x           : $nav-link-padding-x;
+$hamburger-padding-y           : $nav-link-padding-y;
+$hamburger-layer-width         : 24px;
+$hamburger-layer-height        : 2px;
+$hamburger-layer-spacing       : 4px;
+$hamburger-layer-color         : $secondary;
+$hamburger-layer-border-radius : 0;
+$hamburger-hover-opacity       : 0.7;
+$hamburger-active-layer-color  : $hamburger-layer-color;
+$hamburger-active-hover-opacity: $hamburger-hover-opacity;
+
+$hamburger-types: (
+  collapse,
+  minus
+);

@@ -1,0 +1,129 @@
+.navbar {
+  background: $header-background;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: $site-gutter-y var(--gutter-x);
+  position: fixed;
+  height: $header-height;
+  z-index: 1030;
+
+  .brand {
+    display: flex;
+    align-items: baseline;
+    white-space: nowrap;
+
+    > * {
+      @include font-size(1rem);
+    }
+
+    h1 {
+      font-weight: $font-weight-base;
+      text-transform: uppercase;
+
+      a {
+        color: var(--body-color);
+
+        @include hover-focus {
+          color: $primary;
+          text-decoration: none;
+        }
+      }
+    }
+  
+    h2 {
+      color: var(--secondary);
+      font-weight: $font-weight-base;
+      margin-left: $nav-link-padding-x / 2;
+      @include font-size($font-size-base)
+    }
+  }
+
+  .hamburger {
+    padding-right: 0;
+  }
+}
+
+.nav-item {
+  text-transform: lowercase;
+
+  .nav-link {
+    color: var(--secondary);
+
+    @include hover-focus {
+      text-decoration: none;
+      color: $primary;;
+    }
+
+    &.active {
+      color: $black;
+    }
+  }
+}
+
+#menu {
+  position: fixed;
+  top: $header-height;
+  right: 0;
+  background: $header-background;
+}
+
+.navbar-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+
+  .nav-item {
+    padding: $nav-link-padding-y $nav-link-padding-x;
+  }
+}
+
+@media ( min-width: $breakpoint-main ) {
+  .navigation button { 
+    display: none
+  }
+  
+  #menu {
+    position: relative;
+    display: block !important;
+    top: auto;
+    right: auto;
+    background: transparent;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+
+    .nav-item:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+.navigation .contact {
+  padding: $site-gutter-y var(--gutter-x);
+  text-align: right;
+  
+  .email,
+  .tel {
+    display: block;
+  }
+
+  .email {
+    margin-top: $site-gutter-y;
+  }
+
+  .sep,
+  .sep2 {
+    display: none;
+  }
+  
+  @media ( min-width: $breakpoint-main ) {
+    display: none;
+  }
+}

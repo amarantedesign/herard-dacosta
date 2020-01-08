@@ -1,0 +1,24 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Service Imagerie de l'Hôpital de Troyes"
+
+block content
+  article.project-content(itemtype="https://schema.org/CreativeWork")
+    header.project-header
+      +poster('PHOTOS-01.jpg')    
+      h1.project-title(itemprop="headline") #{pageTitle}
+      .infos
+        | service imagerie / centre hospitalier de troyes (10) / date / surf shob / coût euros ht
+
+    .desc(itemprop="text")
+      .col.col-overflow.close
+        p
+          | description
+
+    section.grid
+      .col-3
+        +poster('PHOTOS-02.jpg')
+      .col-3
+        +poster('PHOTOS-03.jpg')

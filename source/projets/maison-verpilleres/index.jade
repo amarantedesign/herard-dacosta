@@ -1,0 +1,34 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Maison à Verpillères-sur-Ource"
+
+block content
+  article.project-content(itemtype='https://schema.org/CreativeWork')
+    header.project-header
+      +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop='headline') #{pageTitle}
+      .infos
+        | logement individuel / verpillères-sur-ource (10) / date / surf m² shon / coût € ht
+
+    .desc(itemprop='text')
+      .col.col-overflow.close
+        p
+          | Le terrain est situé sur le flanc de la vallée de l’Ource avec la maison blottie dans la végétation de pins Silvestre entre le village de Verpillières sur Ource et le vignoble de Champagne. Depuis la maison, on voit toute la vallée. La maison est encastrée dans le dénivelé du  terrain dans la lisière boisée. <br>Elle est composée de la partie habitation légèrement enterré dans le terrain et d’une terrasse disposée dans le vide totalement ouvert vers le paysage. La maison mono-orientée bénéficie donc d’un panorama complet sur la vallée et le paysage.
+      .col.col-overflow.close
+        p
+          | Le terrain est situé sur le flanc de la vallée de l’Ource avec la maison blottie dans la végétation de pins Silvestre entre le village de Verpillières sur Ource et le vignoble de Champagne. Depuis la maison, on voit toute la vallée. La maison est encastrée dans le dénivelé du  terrain dans la lisière boisée. <br>Elle est composée de la partie habitation légèrement enterré dans le terrain et d’une terrasse disposée dans le vide totalement ouvert vers le paysage. La maison mono-orientée bénéficie donc d’un panorama complet sur la vallée et le paysage.
+      .col.col-overflow.close
+        p
+          | Le terrain est situé sur le flanc de la vallée de l’Ource avec la maison blottie dans la végétation de pins Silvestre entre le village de Verpillières sur Ource et le vignoble de Champagne. Depuis la maison, on voit toute la vallée. La maison est encastrée dans le dénivelé du  terrain dans la lisière boisée. <br>Elle est composée de la partie habitation légèrement enterré dans le terrain et d’une terrasse disposée dans le vide totalement ouvert vers le paysage. La maison mono-orientée bénéficie donc d’un panorama complet sur la vallée et le paysage.
+
+    section.grid
+      .col-3
+        +poster('PHOTOS-02.jpg')
+      .col-3
+        +poster('PHOTOS-03.jpg')
+      .col-6
+        +poster('PHOTOS-04.jpg')
+      .col-6
+        +poster('PHOTOS-05.jpg')

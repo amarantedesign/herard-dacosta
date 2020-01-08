@@ -1,0 +1,42 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Logements Séniors à Saint-Memmie"
+
+block content
+  article.project-content(itemtype='https://schema.org/CreativeWork')
+    header.project-header
+      +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop='headline') #{pageTitle}
+      .infos
+        | 8 logements séniors / saint-memmie (51) / date / 98 m² shob/logement / 123 000 € ht/logement
+      
+    .desc(itemprop='text')
+      .col.col-overflow.close
+        p
+          | Découvrir le terrain fut une agréable surprise, nous nous retrouvons entourés de végétation, presque à oublier que nous sommes enclavés dans une dense zone pavillonnaire située à 1 km de la ville de Châlons-en-Champagne. Nous souhaitons que le projet préserve cet "esprit du lieu", que l’on garde l’impression étonnante de rentrer dans une ‘oasis de verdure’.
+        p
+          | Pour minimiser l’impact des constructions dans le site nous optons pour encastrer partiellement les maisons  dans la pente. Nous cherchons à garder un maximum de surface plantée (y compris la toiture). Depuis la partie haute du terrain les bâtiments seront "camouflées", nous verrons une succession de plateaux jardinés.
+      .col.col-overflow.close
+        p
+          | Découvrir le terrain fut une agréable surprise, nous nous retrouvons entourés de végétation, presque à oublier que nous sommes enclavés dans une dense zone pavillonnaire située à 1 km de la ville de Châlons-en-Champagne. Nous souhaitons que le projet préserve cet "esprit du lieu", que l’on garde l’impression étonnante de rentrer dans une ‘oasis de verdure’.
+        p
+          | Pour minimiser l’impact des constructions dans le site nous optons pour encastrer partiellement les maisons  dans la pente. Nous cherchons à garder un maximum de surface plantée (y compris la toiture). Depuis la partie haute du terrain les bâtiments seront "camouflées", nous verrons une succession de plateaux jardinés.
+      .col.col-overflow.close
+        p
+          | Découvrir le terrain fut une agréable surprise, nous nous retrouvons entourés de végétation, presque à oublier que nous sommes enclavés dans une dense zone pavillonnaire située à 1 km de la ville de Châlons-en-Champagne. Nous souhaitons que le projet préserve cet "esprit du lieu", que l’on garde l’impression étonnante de rentrer dans une ‘oasis de verdure’.
+        p
+          | Pour minimiser l’impact des constructions dans le site nous optons pour encastrer partiellement les maisons  dans la pente. Nous cherchons à garder un maximum de surface plantée (y compris la toiture). Depuis la partie haute du terrain les bâtiments seront "camouflées", nous verrons une succession de plateaux jardinés.
+
+    section.grid
+      .col-3
+        +poster('PHOTOS-02.jpg')
+      .col-3
+        +poster('PHOTOS-03.jpg')
+      .col-3
+        +poster('PHOTOS-04.jpg')
+      .col-3
+        +poster('PHOTOS-05.jpg')
+      .col-6
+        +poster('CPFC.jpg')

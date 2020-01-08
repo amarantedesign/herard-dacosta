@@ -1,0 +1,42 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "L'atelier des Lacs de la Forêt d'Orient"
+
+block content
+  article.project-content(itemtype="https://schema.org/CreativeWork")
+  
+    header.project-header
+      +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop="headline") #{pageTitle}
+      .infos bâtiment de stockage, ateliers / conseil général de l’Aube / Mesnil Saint Père (10) / été 2015 / 349 m² shob / 312 260 euros ht
+
+    .desc(itemprop="text")
+      .col.col-overflow.close
+        p L'articulation du projet apporte une solution d'organisation d'un bâtiment se repliant sur une cour intérieure pour offrir toute la fonctionnalité possible d'un bâtiment consacré aux services techniques des Lacs de la Forêt d’Orient. Cette disposition crée un bâtiment à deux visages : son visage intérieur très ouvert sur la cour avec ses auvents et ses larges ouvertures et son visage extérieur avec une façade faites de plusieurs peaux ou filtres : la façade pleine du bâtiment, la végétation puis la structure grillagée.
+        p Depuis la voie, rapidement à proximité du terrain, le bâtiment sera camouflé.
+      
+      .col.col-overflow.close
+        p L'articulation du projet apporte une solution d'organisation d'un bâtiment se repliant sur une cour intérieure pour offrir toute la fonctionnalité possible d'un bâtiment consacré aux services techniques des Lacs de la Forêt d’Orient. Cette disposition crée un bâtiment à deux visages : son visage intérieur très ouvert sur la cour avec ses auvents et ses larges ouvertures et son visage extérieur avec une façade faites de plusieurs peaux ou filtres : la façade pleine du bâtiment, la végétation puis la structure grillagée.
+        p Depuis la voie, rapidement à proximité du terrain, le bâtiment sera camouflé.
+
+      .col.col-overflow.close
+        p L'articulation du projet apporte une solution d'organisation d'un bâtiment se repliant sur une cour intérieure pour offrir toute la fonctionnalité possible d'un bâtiment consacré aux services techniques des Lacs de la Forêt d’Orient. Cette disposition crée un bâtiment à deux visages : son visage intérieur très ouvert sur la cour avec ses auvents et ses larges ouvertures et son visage extérieur avec une façade faites de plusieurs peaux ou filtres : la façade pleine du bâtiment, la végétation puis la structure grillagée.
+        p Depuis la voie, rapidement à proximité du terrain, le bâtiment sera camouflé.
+
+    section.grid
+      .col-4
+        +poster('PHOTOS-06.jpg')
+      .col-2.contain
+        +poster('PLANS.jpg')
+      .col-6.contain
+        +poster('COUPES.jpg')
+      .col-3
+        +poster('PHOTOS-02.jpg')
+      .col-3
+        +poster('PHOTOS-05.jpg')
+      .col-3
+        +poster('PHOTOS-03.jpg')
+      .col-3
+        +poster('PHOTOS-04.jpg')

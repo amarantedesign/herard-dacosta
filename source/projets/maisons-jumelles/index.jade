@@ -1,0 +1,40 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Maisons Jumelles"
+
+block content
+  article.project-content(itemtype='https://schema.org/CreativeWork')
+    header.project-header
+      //- +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop='headline') #{pageTitle}
+      .infos
+        | 2 maisons / rumilly-lès-vaudes (10) / automne 2015 / 120 m² shob/logement / 90 000 € ht/logement
+
+    .desc(itemprop='text')
+      .col.col-overflow.close
+        p
+          | Il s'agît de deux maisons à but locatif que l'on devait réaliser à moindre coût pour la famille Tripogney. Les maisons poursuivent l'alignement et les proportions des maisons voisines existantes. La forme des bâtiments évoque l'archétype de la maison, elle fait penser au dessin d'un enfant. Nous sommes dans un secteur sauvegardé, réinterpréter le modèle de la maison traditionnelle tout en proposant un espace de vie contemporain aux utilisateurs était la réponse la plus pertinente.
+        p
+          | Le terrain bordant l'Hozain, est sujet à des crues, pour cette raison, les maisons sont surélevées, ce qui leur accorde une certaine légèreté. Les toitures débordantes renforcent cette impression, protègent les façades vitrées du soleil en été et laissent passer le soleil rasant en hiver. À l'inverse, le fibrociment qui recouvre façades et toitures emphatise la notion de masse et la matérialité du bâtiment.
+      .col.col-overflow.close
+        p
+          | Il s'agît de deux maisons à but locatif que l'on devait réaliser à moindre coût pour la famille Tripogney. Les maisons poursuivent l'alignement et les proportions des maisons voisines existantes. La forme des bâtiments évoque l'archétype de la maison, elle fait penser au dessin d'un enfant. Nous sommes dans un secteur sauvegardé, réinterpréter le modèle de la maison traditionnelle tout en proposant un espace de vie contemporain aux utilisateurs était la réponse la plus pertinente.
+        p
+          | Le terrain bordant l'Hozain, est sujet à des crues, pour cette raison, les maisons sont surélevées, ce qui leur accorde une certaine légèreté. Les toitures débordantes renforcent cette impression, protègent les façades vitrées du soleil en été et laissent passer le soleil rasant en hiver. À l'inverse, le fibrociment qui recouvre façades et toitures emphatise la notion de masse et la matérialité du bâtiment.
+      .col.col-overflow.close
+        p
+          | Il s'agît de deux maisons à but locatif que l'on devait réaliser à moindre coût pour la famille Tripogney. Les maisons poursuivent l'alignement et les proportions des maisons voisines existantes. La forme des bâtiments évoque l'archétype de la maison, elle fait penser au dessin d'un enfant. Nous sommes dans un secteur sauvegardé, réinterpréter le modèle de la maison traditionnelle tout en proposant un espace de vie contemporain aux utilisateurs était la réponse la plus pertinente.
+        p
+          | Le terrain bordant l'Hozain, est sujet à des crues, pour cette raison, les maisons sont surélevées, ce qui leur accorde une certaine légèreté. Les toitures débordantes renforcent cette impression, protègent les façades vitrées du soleil en été et laissent passer le soleil rasant en hiver. À l'inverse, le fibrociment qui recouvre façades et toitures emphatise la notion de masse et la matérialité du bâtiment.
+
+//-    section.grid
+      .col-3
+        +poster('PHOTOS-02.jpg')
+      .col-3
+        +poster('PHOTOS-03.jpg')
+      .col-6
+        +poster('PHOTOS-04.jpg')
+      .col-6
+        +poster('PHOTOS-05.jpg')

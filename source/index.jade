@@ -1,0 +1,33 @@
+extends ./settings/_layout.jade
+
+block variables
+    - var lang = "fr";
+    - var htmlClass = "home";
+    - var slug = "home";
+
+block content
+
+  article.home-grid(itemtype="https://schema.org/CreativeWork")
+    +thumb('atelier-des-lacs', "Atelier des Lacs de la Forêt d'Orient")
+    +thumb('blanchisserie-brienne', "Blanchisserie de l'Hôpital de Brienne-le-Château")
+    +thumb('boulangerie-neuville', "Boulangerie de Neuville-sur-Seine")
+    +thumb('chambre-agriculture-cotedor', "Chambre d'Agriculture de Côte-d'Or")
+    +thumb('controle-technique-poids-lourds', "Centre de Contrôle Technique Poids-Lourds")
+    +thumb('hall-mere-enfant', "Hall Mère & Enfant")
+    +thumb('logements-saint-memmie', "Logements Séniors à Saint-Memmie")
+    +thumb('maison-agence-herard-dacosta', "Maison+Agence Hérard & da Costa")
+    +thumb('maison-cameleon', "Maison Caméléon")
+    +thumb('maison-charvot', "Maison Charvot")
+    +thumb('maison-dacosta', "Maison Vieira-da Costa")
+    +thumb('maison-grange', "Maison Grange")
+    +thumb('maison-nino', "Maison Nino")
+    +thumb('maison-serre', "Maison Serre")
+    +thumb('maison-verpilleres', "Maison à Verpillères-sur-Ource")
+    +thumb('maisons-jumelles', "Maison Jumelles")
+    +thumb('mediatheque-saint-lye', "Médiathèque de Saint-Lyé")
+    +thumb('pc-securite', "Poste Central de Sécurité")
+    +thumb('piscine-sur-pilotis', "Piscine sur pilotis")
+    +thumb('serre-en-ville', "Serre en Ville")
+    +thumb('service-addictologie', "Service d'addictologie")
+    +thumb('service-imagerie', "Service Imagerie")
+    +thumb('village-vacances', "Village Vacances")

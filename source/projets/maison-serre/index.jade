@@ -1,0 +1,37 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Maison Serre"
+
+block content
+  article.project-content(itemtype='https://schema.org/CreativeWork')
+    header.project-header
+      +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop='headline') #{pageTitle}
+      .infos
+        | logement individuel / villette-sur-aube (10) / 2012 / 160 m² shob / 170 000 euros ht
+
+    .desc(itemprop='text')
+      .col.col-overflow.close
+        p
+          | Sur le terrain il existait une plantation de noisetiers très régulière, les arbres, équidistants de 5 mètres, s'inscrivent sur une trame carrée. Cette régularité et modulation se reflètent dans la géométrie de la maison. Au départ pour une raison très pratique, nous voulions garder le plus grand nombre d'arbres, alors, les 5 mètres sont devenus un dénominateur commun. 
+          br
+          | Dans cette maison on accède à toutes les pièces claustres à partir d'une seule grande salle à double hauteur. Cette grande salle est divisée en deux parties, l'une chauffée et l'autre non chauffée, les deux accomplissent les fonctions propres au salon/séjour/cuisine. Les usagers se les approprieront selon le temps, les envies, les saisons, …
+      .col.col-overflow.close
+        p
+          | Sur le terrain il existait une plantation de noisetiers très régulière, les arbres, équidistants de 5 mètres, s'inscrivent sur une trame carrée. Cette régularité et modulation se reflètent dans la géométrie de la maison. Au départ pour une raison très pratique, nous voulions garder le plus grand nombre d'arbres, alors, les 5 mètres sont devenus un dénominateur commun. 
+          br
+          | Dans cette maison on accède à toutes les pièces claustres à partir d'une seule grande salle à double hauteur. Cette grande salle est divisée en deux parties, l'une chauffée et l'autre non chauffée, les deux accomplissent les fonctions propres au salon/séjour/cuisine. Les usagers se les approprieront selon le temps, les envies, les saisons, …
+      .col.col-overflow.close
+        p
+          | Sur le terrain il existait une plantation de noisetiers très régulière, les arbres, équidistants de 5 mètres, s'inscrivent sur une trame carrée. Cette régularité et modulation se reflètent dans la géométrie de la maison. Au départ pour une raison très pratique, nous voulions garder le plus grand nombre d'arbres, alors, les 5 mètres sont devenus un dénominateur commun. 
+          br
+          | Dans cette maison on accède à toutes les pièces claustres à partir d'une seule grande salle à double hauteur. Cette grande salle est divisée en deux parties, l'une chauffée et l'autre non chauffée, les deux accomplissent les fonctions propres au salon/séjour/cuisine. Les usagers se les approprieront selon le temps, les envies, les saisons, …
+
+    section.grid
+      .col-6.contain
+        +poster('COUPES.jpg')
+      .col-6.contain
+        +poster('PLANS.jpg')
+

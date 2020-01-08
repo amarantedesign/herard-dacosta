@@ -1,0 +1,54 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Maison Caméléon"
+
+block content
+  article.project-content(itemtype='https://schema.org/CreativeWork')
+    header.project-header
+      +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop='headline') #{pageTitle}
+      .infos
+        | maison individuelle / Landreville (10) / 2011 / 136 m² SHON / 140 000 € HT soit 1029 € HT/m²
+      
+    .desc(itemprop='text')
+      .col.col-overflow.close
+        p
+          | Cette maison vient s'inscrire dans un verger penchant vers le sud. Nous l'avons implantée de façon à préserver les arbres existants et aussi à profiter du feuillage d'été pour ombrager les baies vitrées.
+        p
+          | Les clients souhaitaient une maison pour vieillir, dans laquelle ils pourraient éventuellement se déplacer en fauteuil roulant. Le terrain est incliné, nous avons décidé de créer deux niveaux décalés de 90 cm, reliés par une rampe praticable en fauteuil roulant électrique. Ainsi, il est possible de sortir dans le verger à partir de chaque pièce. La différence de 90 cm place le plan de travail au niveau du sol, une situation insolite, où l'on est simultanément 'à table' et 'par terre'.
+        p
+          | Nous avons donc cherché à limiter le cloisonnement pour que les clients profitent pleinement de l'espace. Lorsque les propriétaires reçoivent des invités, deux 'murs coulissants' peuvent être déployés pour refermer leur chambre et une partie du bureau, qui devient ainsi chambre d'amis.
+      .col.col-overflow.close
+        p
+          | Cette maison vient s'inscrire dans un verger penchant vers le sud. Nous l'avons implantée de façon à préserver les arbres existants et aussi à profiter du feuillage d'été pour ombrager les baies vitrées.
+        p
+          | Les clients souhaitaient une maison pour vieillir, dans laquelle ils pourraient éventuellement se déplacer en fauteuil roulant. Le terrain est incliné, nous avons décidé de créer deux niveaux décalés de 90 cm, reliés par une rampe praticable en fauteuil roulant électrique. Ainsi, il est possible de sortir dans le verger à partir de chaque pièce. La différence de 90 cm place le plan de travail au niveau du sol, une situation insolite, où l'on est simultanément 'à table' et 'par terre'.
+        p
+          | Nous avons donc cherché à limiter le cloisonnement pour que les clients profitent pleinement de l'espace. Lorsque les propriétaires reçoivent des invités, deux 'murs coulissants' peuvent être déployés pour refermer leur chambre et une partie du bureau, qui devient ainsi chambre d'amis.
+      .col.col-overflow.close
+        p
+          | Cette maison vient s'inscrire dans un verger penchant vers le sud. Nous l'avons implantée de façon à préserver les arbres existants et aussi à profiter du feuillage d'été pour ombrager les baies vitrées.
+        p
+          | Les clients souhaitaient une maison pour vieillir, dans laquelle ils pourraient éventuellement se déplacer en fauteuil roulant. Le terrain est incliné, nous avons décidé de créer deux niveaux décalés de 90 cm, reliés par une rampe praticable en fauteuil roulant électrique. Ainsi, il est possible de sortir dans le verger à partir de chaque pièce. La différence de 90 cm place le plan de travail au niveau du sol, une situation insolite, où l'on est simultanément 'à table' et 'par terre'.
+        p
+          | Nous avons donc cherché à limiter le cloisonnement pour que les clients profitent pleinement de l'espace. Lorsque les propriétaires reçoivent des invités, deux 'murs coulissants' peuvent être déployés pour refermer leur chambre et une partie du bureau, qui devient ainsi chambre d'amis.
+
+    section.grid
+      .col-4
+        +poster('PHOTOS-02.jpg')
+      .col-2
+        +poster('PHOTOS-04.jpg')
+      .col-6
+        +poster('PHOTOS-03.jpg')
+      .col-3
+        +poster('PHOTOS-06.jpg')
+      .col-3.contain
+        +poster('PHOTOS-05.jpg')
+      .col-6
+        +poster('DESSINS.jpg')
+
+
+
+  

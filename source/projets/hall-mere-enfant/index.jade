@@ -1,0 +1,46 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Hall Mère & Enfant de l'Hôpital de Troyes"
+
+block content
+  article.project-content(itemtype='https://schema.org/CreativeWork')
+    header.project-header
+      +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop='headline') #{pageTitle}
+      .infos
+        | restructuration du hall mère et enfant / centre hospitalier de Troyes (10) / date / surf m² shob / coût € HT
+      
+    .desc(itemprop='text')
+      .col.col-overflow.close
+        p
+          | L'ensemble de bâtiments la maternité est très austère et orthogonal. Nous avons voulu atténuer cette dureté par un "nuage courbe" qui accueille les arrivants. Un auvent qui flotte sur les quelques pilotis très fins. La courbe apporte de la douceur, sa forme nous renvoie à l'image du ventre de la femme enceinte. Par son caractère réflectif il devient un signal sur la rue des Lombards, marquant l'entré de la maternité.
+        p
+          | Le hall actuel du bâtiment est sombre, labyrinthique et sinueux, le projet cherche à introduire plus de lumière naturelle et clarifier les circulations.
+      .col.col-overflow.close
+        p
+          | L'ensemble de bâtiments la maternité est très austère et orthogonal. Nous avons voulu atténuer cette dureté par un "nuage courbe" qui accueille les arrivants. Un auvent qui flotte sur les quelques pilotis très fins. La courbe apporte de la douceur, sa forme nous renvoie à l'image du ventre de la femme enceinte. Par son caractère réflectif il devient un signal sur la rue des Lombards, marquant l'entré de la maternité.
+        p
+          | Le hall actuel du bâtiment est sombre, labyrinthique et sinueux, le projet cherche à introduire plus de lumière naturelle et clarifier les circulations.
+      .col.col-overflow.close
+        p
+          | L'ensemble de bâtiments la maternité est très austère et orthogonal. Nous avons voulu atténuer cette dureté par un "nuage courbe" qui accueille les arrivants. Un auvent qui flotte sur les quelques pilotis très fins. La courbe apporte de la douceur, sa forme nous renvoie à l'image du ventre de la femme enceinte. Par son caractère réflectif il devient un signal sur la rue des Lombards, marquant l'entré de la maternité.
+        p
+          | Le hall actuel du bâtiment est sombre, labyrinthique et sinueux, le projet cherche à introduire plus de lumière naturelle et clarifier les circulations.
+
+    section.grid
+      .col-4
+        +poster('PHOTOS-02.jpg')
+      .col-2
+        +poster('PHOTOS-03.jpg')
+      .col-3
+        +poster('PHOTOS-04.jpg')
+      .col-3
+        +poster('PHOTOS-05.jpg')
+      .col-6
+        +poster('PHOTOS-06.jpg')
+
+      
+
+

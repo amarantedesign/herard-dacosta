@@ -1,0 +1,35 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Service d'addictologie"
+
+block content
+  article.project-content(itemtype="https://schema.org/CreativeWork")
+  
+    header.project-header
+      +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop="headline") #{pageTitle}
+      .infos
+        | restructuration de l’Unité Jean Schiffer – Service d’addictologie / Centre Hospitalier de Troyes / Pont-Sainte-Marie (10) / printemps 2016 / 484 m² SHON / 324 660 € HT
+
+    .desc(itemprop="text")
+      .col-auto.col-overflow.close
+        p Le projet vise l'extension du service d'addictologie du centre Hospitalier de de Troyes (CHT), appelé Unité Jean-Schiffer. Le bâtiment se situe à Pont Sainte-Marie, dans un site extérieur à celui de l'hôpital : le domaine de Nazareth.<br>Il s'agît d'une maison bourgeoise qui occupait seule le domaine avant qu'il revienne au CHT. On y accueille des personnes souffrant d'addiction en séjour de courte durée.
+        p L'objectif du projet était la mise en conformité concernant l'accessibilité aux PMR et la sécurité incendie du bâtiment existant et une extension. Une salle de réunion, une salle de repas et deux chambres supplémentaires ont été crées.
+        p Nous souhaitions que les nouvelles constructions s'inscrivent discrètement, sans perturber la lecture du volume de l'ancienne maison. Ainsi, l'extension vient s'installer derrière le bâtiment, jusqu'en limite de propriété. L'emplacement est d'autant plus évident que les circulations horizontales et verticales de la maison se situaient à l'arrière.
+        p L'extension assume un langage contemporain, la continuité entre ancien et nouveau se fait par la couleur.
+
+    section.grid
+      .col-4
+        +poster('PHOTOS-02.jpg')
+      .col-2
+        +poster('PHOTOS-04.jpg')
+      .col-6
+        +poster('FACADE-01.jpg')
+      .col-4.contain
+        +poster('PLAN.jpg')
+      .col-2
+        +poster('PLANMASSE.jpg')
+      .col-6
+        +poster('PHOTOS-03.jpg')

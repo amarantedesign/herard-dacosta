@@ -1,0 +1,42 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Blanchisserie de l'Hôpital de Brienne-le-Château"
+
+block content
+  article.project-content(itemtype='https://schema.org/CreativeWork')
+    header.project-header
+      +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop='headline') #{pageTitle}
+      .infos
+        | extension d'une blanchisserie / Brienne-le-Château (10) / date / 600 m² SHON /  € HT
+    
+    .desc(itemprop='text')
+      .col.col-overflow.close
+        p
+          | Le choix de la courbe répond à plusieurs réflexions architecturales et programmatiques. Un dialogue s’établit entre deux entités complémentaires: un existant orthogonale et rigide, qui joue de la verticalité, l’autre courbe, fluide et plutôt horizontal.
+        p
+          | La largeur réduite de l’extension permet non seulement un chargement et déchargement facilité pour les camions en dehors du domaine public, mais offre aussi un apport en lumière naturelle plus conséquent pour les espaces de travail situés dans le fond ( zone sale et zone propre ).
+      .col.col-overflow.close
+        p
+          | Le choix de la courbe répond à plusieurs réflexions architecturales et programmatiques. Un dialogue s’établit entre deux entités complémentaires: un existant orthogonale et rigide, qui joue de la verticalité, l’autre courbe, fluide et plutôt horizontal.
+        p
+          | La largeur réduite de l’extension permet non seulement un chargement et déchargement facilité pour les camions en dehors du domaine public, mais offre aussi un apport en lumière naturelle plus conséquent pour les espaces de travail situés dans le fond ( zone sale et zone propre ).
+      .col.col-overflow.close
+        p
+          | Le choix de la courbe répond à plusieurs réflexions architecturales et programmatiques. Un dialogue s’établit entre deux entités complémentaires: un existant orthogonale et rigide, qui joue de la verticalité, l’autre courbe, fluide et plutôt horizontal.
+        p
+          | La largeur réduite de l’extension permet non seulement un chargement et déchargement facilité pour les camions en dehors du domaine public, mais offre aussi un apport en lumière naturelle plus conséquent pour les espaces de travail situés dans le fond ( zone sale et zone propre ).
+    
+    section.grid
+      .col-6
+        +poster('PHOTOS-02.jpg')
+      .col-2
+        +poster('PHOTOS-03.jpg')
+      .col-4
+        +poster('PHOTOS-04.jpg')
+      .col-2
+        +poster('PHOTOS-05.jpg')
+      .col-4
+        +poster('PHOTOS-06.jpg')

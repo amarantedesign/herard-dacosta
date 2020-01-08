@@ -1,0 +1,44 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Médiathèque de Saint-Lyé"
+
+block content
+  article.project-content(itemtype='https://schema.org/CreativeWork')
+    header.project-header
+      +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop='headline') #{pageTitle}
+      .infos
+        | réhabilitation d'une longère en médiathèque / Mairie de Saint-Lyé (10) / 2016 / 186 m² shob / 300 000 € HT
+
+    .desc(itemprop='text')
+      .col.col-overflow.close
+        p
+          | Le projet consiste à créer une médiathèque dans une ancienne longère, intéressant exemplaire d'architecture vernaculaire mais très endommagée. 
+          br
+          | Nos premières intentions pour ce projet étaient de réparer la couverture existante. Nous avons abandonné cette solution car la toiture était très abîmée, à refaire entièrement. Pourquoi proposer ce même grand manteau sombre, alors qu'une bibliothèque se veut lumineuse? D'autre part, si nous faisions une couverture neuve à l'identique, il nous était impossible de respecter le budget de 300 000 €HT fixé par le maître d'ouvrage. 
+          br
+          | Nous avons opté pour créer un étage avec un langage contemporain. Ce qui permet de gagner plus de surface utile et plus de lumière naturelle, puisque nous ne sommes plus conditionnés par les rampants.
+      .col.col-overflow.close
+        p
+          | Le projet consiste à créer une médiathèque dans une ancienne longère, intéressant exemplaire d'architecture vernaculaire mais très endommagée. 
+          br
+          | Nos premières intentions pour ce projet étaient de réparer la couverture existante. Nous avons abandonné cette solution car la toiture était très abîmée, à refaire entièrement. Pourquoi proposer ce même grand manteau sombre, alors qu'une bibliothèque se veut lumineuse? D'autre part, si nous faisions une couverture neuve à l'identique, il nous était impossible de respecter le budget de 300 000 €HT fixé par le maître d'ouvrage. 
+          br
+          | Nous avons opté pour créer un étage avec un langage contemporain. Ce qui permet de gagner plus de surface utile et plus de lumière naturelle, puisque nous ne sommes plus conditionnés par les rampants.
+      .col.col-overflow.close
+        p
+          | Le projet consiste à créer une médiathèque dans une ancienne longère, intéressant exemplaire d'architecture vernaculaire mais très endommagée. 
+          br
+          | Nos premières intentions pour ce projet étaient de réparer la couverture existante. Nous avons abandonné cette solution car la toiture était très abîmée, à refaire entièrement. Pourquoi proposer ce même grand manteau sombre, alors qu'une bibliothèque se veut lumineuse? D'autre part, si nous faisions une couverture neuve à l'identique, il nous était impossible de respecter le budget de 300 000 €HT fixé par le maître d'ouvrage. 
+          br
+          | Nous avons opté pour créer un étage avec un langage contemporain. Ce qui permet de gagner plus de surface utile et plus de lumière naturelle, puisque nous ne sommes plus conditionnés par les rampants.
+
+   section.grid
+      .col-3
+        +poster('PHOTOS-02.jpg')
+      .col-3
+        +poster('PHOTOS-03.jpg')
+      .col-6.contain
+        +poster('DESSINS.jpg')

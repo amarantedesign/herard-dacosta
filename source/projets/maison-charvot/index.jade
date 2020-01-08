@@ -1,0 +1,48 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Maison Charvot"
+
+block content
+  article.project-content(itemtype='https://schema.org/CreativeWork')
+    header.project-header
+      +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop='headline') #{pageTitle}
+      .infos
+        | maison d’habitation / neuville-sur-seine (10) / 2009 / 317 m² / 210 000 euros ht
+
+    .desc(itemprop='text')
+      .col.col-overflow.close
+        p
+          | La maison forme un parallélépipède composé de 2 volumes, un volume chauffé opaque et un volume non-chauffé transparent. Elle possède ainsi deux visages, un léger avec un bardage en polycarbonate (côté jardin), l'autre brut et opaque avec un bardage en fibres-ciment (côté rue). La façade côté rue s'exprime selon les désirs de lumière, de transparence, d'intimité, de protection ou d'aération des usagers. 
+          br
+          | Les clients souhaitaient une maison avec un grand jardin d'hiver qui les rapproche de la nature. La serre prolonge leur espace habitable jusqu'aux vignes de champagne. Ce volume peut aussi apporter à l'habitation une source de chaleur passive quand il fait froid. En cas de surchauffe en été, de grands volets accordéon et des châssis de ventilation escamotables en partie haute s'ouvrent et ventilent par effet de cheminée.
+      .col.col-overflow.close
+        p
+          | La maison forme un parallélépipède composé de 2 volumes, un volume chauffé opaque et un volume non-chauffé transparent. Elle possède ainsi deux visages, un léger avec un bardage en polycarbonate (côté jardin), l'autre brut et opaque avec un bardage en fibres-ciment (côté rue). La façade côté rue s'exprime selon les désirs de lumière, de transparence, d'intimité, de protection ou d'aération des usagers. 
+          br
+          | Les clients souhaitaient une maison avec un grand jardin d'hiver qui les rapproche de la nature. La serre prolonge leur espace habitable jusqu'aux vignes de champagne. Ce volume peut aussi apporter à l'habitation une source de chaleur passive quand il fait froid. En cas de surchauffe en été, de grands volets accordéon et des châssis de ventilation escamotables en partie haute s'ouvrent et ventilent par effet de cheminée.
+      .col.col-overflow.close
+        p
+          | La maison forme un parallélépipède composé de 2 volumes, un volume chauffé opaque et un volume non-chauffé transparent. Elle possède ainsi deux visages, un léger avec un bardage en polycarbonate (côté jardin), l'autre brut et opaque avec un bardage en fibres-ciment (côté rue). La façade côté rue s'exprime selon les désirs de lumière, de transparence, d'intimité, de protection ou d'aération des usagers. 
+          br
+          | Les clients souhaitaient une maison avec un grand jardin d'hiver qui les rapproche de la nature. La serre prolonge leur espace habitable jusqu'aux vignes de champagne. Ce volume peut aussi apporter à l'habitation une source de chaleur passive quand il fait froid. En cas de surchauffe en été, de grands volets accordéon et des châssis de ventilation escamotables en partie haute s'ouvrent et ventilent par effet de cheminée.
+
+    section.grid
+      .col-3
+        +poster('PHOTOS-02.jpg')
+      .col-3
+        +poster('PHOTOS-03.jpg')
+      .col-3
+        +poster('PHOTOS-04.jpg')
+      .col-3
+        +poster('PHOTOS-05.jpg')
+      .col-6.contain
+        +poster('COUPES.jpg')
+      .col-6.contain
+        +poster('PLANS.jpg')
+
+
+
+  

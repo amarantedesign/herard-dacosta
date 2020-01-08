@@ -1,0 +1,48 @@
+
+//! - Footer
+.site-infos {
+  display: flex;
+  flex-direction: column;
+  background: $header-background;
+  width: 100%;
+  align-items: baseline;
+  padding: $site-gutter-y var(--gutter-x);
+
+  @include font-size(0.9rem);
+
+  .contact div {
+    display: inline-block;
+  }
+
+  @media ( min-width: $breakpoint-main ) {
+    position: fixed;
+    bottom: 0;
+    flex-direction: row;
+
+    .contact {
+      display: inline-flex;
+    }
+  }
+  
+  @media ( max-width: $breakpoint-main ) {
+    margin-bottom: $site-gutter-y;
+
+    .contact {
+      margin-bottom: 0.3rem;
+    }
+
+    .email,
+    .tel {
+      display: block;
+    }
+
+    .email {
+      margin-top: $site-gutter-y;
+    }
+  
+    .sep,
+    .sep2 {
+      display: none;
+    }
+  }
+}

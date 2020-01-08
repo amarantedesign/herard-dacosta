@@ -1,0 +1,35 @@
+- var pageSlug = "";
+
+- var lang = "fr";
+
+- var brandTitle = "Hérard & Da Costa";
+- var brandSubtitle = "architectes"
+//- var siteUrl = "http://herard-dacosta.com/v2020";
+- var siteUrl = "";
+- var pageTitle = "Accueil";
+- var pageDesc = "";
+- var pageKeywords = "";
+- var author = "";
+- var dateModified = "2019-11-21T11:04:31+01:00";
+
+- var placeholder = "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==";
+
+- var navItems = [{ name: "Projets", slug: "projets", link: siteUrl+"/"}, { name: "Agence", slug: "agence", link: siteUrl+"/agence.html"}]
+
+block variables
+
+include _mixins.jade
+
+doctype html
+html(lang='#{lang}' class='#{htmlClass}')
+    head        
+        include ../partials/_head.jade
+
+    body
+        include ../partials/_header.jade
+        
+        main.site-content(role="document")
+
+            block content
+        
+        include ../partials/_footer.jade

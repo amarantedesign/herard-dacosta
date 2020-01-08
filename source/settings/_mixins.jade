@@ -1,0 +1,26 @@
+            
+mixin thumb(projectSlug, projectName, img)
+    figure.thumb
+        a(href="#{siteUrl}/projets/#{projectSlug}/")
+            if img
+                //- img.img-fluid.lazyload(src='#{placeholder}' data-srcset='/projets/#{projectSlug}/img/@0,5x#{img} 375w, /projets/#{projectSlug}/img/#{img} 768w' data-src='/projets/#{projectSlug}/img/#{img}' data-sizes="auto" alt="#{projectName}")
+                img.img-fluid.lazyload(src='#{placeholder}' data-src='#{siteUrl}/projets/#{projectSlug}/img/#{img}' data-sizes="auto" alt="#{projectName}")
+            else
+                img.img-fluid.lazyload(src='#{placeholder}' data-src='#{siteUrl}/projets/#{projectSlug}/img/vignette.jpg' data-sizes="auto" alt="#{projectName}")
+            figcaption.caption(itemprop="headline") #{projectName}
+
+mixin poster(imgSrc, responsive)
+    figure.poster
+        if responsive
+            img.img-fluid.lazyload(src='#{placeholder}' data-srcset='img/@0,5x#{imgSrc} 375w, img/#{imgSrc} 768w' data-src='img/#{imgSrc}' data-sizes="auto" alt="#{pageTitle}")
+        else
+            img.img-fluid.lazyload(src='#{placeholder}' data-src='img/#{imgSrc}' data-sizes="auto" alt="#{pageTitle}")
+    
+
+mixin main-nav(navItems, pageSlug)
+    for item in navItems
+        li.nav-item(class="item-#{item.slug}")
+            if item.slug == pageSlug
+                a(href="#{item.link}").nav-link.active= item.name
+            else
+                a(href="#{item.link}").nav-link= item.name

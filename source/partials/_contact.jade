@@ -1,0 +1,32 @@
+  
+div.contact(itemscope, itemtype='http://schema.org/Organization')
+  span.sr-only.name(itemprop='name') #{brandTitle}
+  div(itemprop='address', itemscope='', itemtype='http://schema.org/PostalAddress')
+    span(itemprop='streetAddress') 25 rue de Preize
+    | &nbsp;-&nbsp;
+    span(itemprop='postalCode') 10000
+    | &nbsp;
+    span(itemprop='addressLocality') Troyes
+    span.sr-only(itemprop='addressCountry') France
+    span.sep &nbsp;-&nbsp;
+    a.tel(href='tel:+33972306787')
+      span.text-uppercase tel : 
+      span(itemprop='telephone') +33972306787
+
+div.contact(itemscope, itemtype='http://schema.org/Organization')
+  span.sep2 &nbsp;/&nbsp;
+  span.sr-only.name(itemprop='name') #{brandTitle}
+  div(itemprop='address', itemscope, itemtype='http://schema.org/PostalAddress')
+    span(itemprop='streetAddress') Travessa da China 79
+    | &nbsp;-&nbsp;
+    span(itemprop='postalCode') 4300-124
+    | &nbsp;
+    span(itemprop='addressLocality') Porto
+    span.sr-only(itemprop='addressCountry') Portugal
+    span.sep &nbsp;-&nbsp;
+    a.tel(href='tel:+351961778767')
+      span.text-uppercase tel : 
+      span(itemprop='telephone') +351961778767
+    span.sep2 &nbsp;/&nbsp;
+    a.email(href='mailto:contact@herard-dacosta.com')
+      span(itemprop='telephone') contact@herard-dacosta.com

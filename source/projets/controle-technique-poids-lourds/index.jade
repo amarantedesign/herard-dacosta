@@ -1,0 +1,47 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Centre de Contrôle Technique Poids-Lourds"
+
+block content
+  article.project-content(itemtype='https://schema.org/CreativeWork')
+    header.project-header
+      +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop='headline') #{pageTitle}
+      .infos
+        | centre de contrôle technique poids-lourds / Mairie de Chatillon-sur-Seine / Chatillon-sur-Seine (21) / 2016 / 290 m² shob / 373 985 euros ht
+      
+    .desc(itemprop='text')
+      .col.col-overflow.close
+        p
+          | Dans une zone artisanale entre l'entrée Nord de la ville de Châtillon-sur-Seine et les champs de colza et de céréales, ce Centre de contrôle technique pour poids lourds est sous la franchise de la marque Autovision. Cette marque possède une charte bien stricte concernant les couleurs à appliquer sur les murs et la signalétique. Nous voulions que la signalétique fasse partie intégrante du bâtiment et ne soit pas un élément apposé.
+        p
+          | Nous souhaitions que le bâtiment se laisse traverser par le paysage, c'est pourquoi la halle de contrôle des camions est en polycarbonate ondulé transparent. Un SAS totalement vitré relie le grand volume non chauffé translucide à un petit volume opaque en bardage aluminium naturel qui comprend les espaces chauffés.
+        p
+          | Une signalétique aux couleurs denses posée sur des matériaux de façade brillants renvoie à l'image d'un camion au design très moderne.
+      .col.col-overflow.close
+        p
+          | In a craft zone between the northern entrance of the city of Châtillon-sur-Seine and the fields of rapeseed and cereals, this Center of technical control for trucks is under the franchise of the mark Autovision. This brand has a very strict charter concerning the colors to be applied on the walls and the signage. We wanted the signage to be an integral part of the building and not an affixed element.
+        p
+          | We wanted the building to be traversed by the landscape, which is why the truck control hall is made of transparent corrugated polycarbonate. A fully glazed SAS connects the large unheated translucent volume to a small opaque volume of natural aluminum cladding that includes heated spaces.
+        p
+          | Signage in dense colors posed on glossy facade materials refers to the image of a truck with a very modern design.
+      .col.col-overflow.close
+        p
+          | Em uma zona de artesanato entre a entrada norte da cidade de Châtillon-sur-Seine e os campos de colza e cereais, este Centro de controle técnico para caminhões está sob a franquia da marca Autovision. Esta marca possui uma carta muito rigorosa quanto às cores a serem aplicadas nas paredes e na sinalização. Queríamos que a sinalização fosse parte integrante do edifício e não um elemento afixado.
+        p
+          | Queríamos que o edifício fosse atravessado pela paisagem, e é por isso que o salão de controle de caminhões é feito de policarbonato ondulado transparente. Um SAS totalmente envidraçado conecta o grande volume translúcido não aquecido a um pequeno volume opaco de revestimento de alumínio natural que inclui espaços aquecidos.
+        p
+          | Sinalização em cores densas colocadas em materiais de fachada brilhante refere-se à imagem de um caminhão com um design muito moderno.
+      
+    section.grid
+      .col-3
+        +poster('PHOTOS-02.jpg')
+      .col-3
+        +poster('PHOTOS-03.jpg')
+      .col-3
+        +poster('PHOTOS-04.jpg')
+      .col-3
+        +poster('PHOTOS-05.jpg')
+

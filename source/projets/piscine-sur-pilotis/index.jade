@@ -1,0 +1,69 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    //- var slug = "piscine-sur-pilotis";
+    - var pageTitle = "Piscine sur pilotis"
+
+block content
+  article.project-content(itemtype="https://schema.org/CreativeWork")
+    header.project-header
+      +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop="headline") #{pageTitle}
+      .infos
+        | piscine couverte / Avirey-Lingey (10) / juillet 2009-avril 2010 / 185 m² shob / 180 000 euros ht
+
+    .desc(itemprop="text")
+      .col.col-overflow.close
+        p
+          | Ce projet s'inscrit dans un site chargé de signification, entre vieux bâtiments – moulin, granges, écuries–, jardins et vergers. Son occupation remonte à l'époque médiévale, lorsqu'il existait un vendangeoir appartenant à l'abbaye de Molesme.
+        p
+          | On devait y construire une piscine couverte utilisable pendant toutes les saisons à l'exception de l'hiver.
+          br
+          | Nous avons choisi de l'implanter le long du ruisseau, comme un rappel aux origines fondamentales de cette matière. Face à l'eau de la piscine, l'eau coule dans sa forme naturelle.
+        p
+          | Nous optons pour une construction sur pilotis, afin d'anticiper une éventuelle montée de l'eau.
+          br
+          | Le bâtiment se veut discret, il reste léger et transparent, de façon à se laisser transpercer par le paysage.
+      .col.col-overflow.close
+        p
+          | Ce projet s'inscrit dans un site chargé de signification, entre vieux bâtiments – moulin, granges, écuries–, jardins et vergers. Son occupation remonte à l'époque médiévale, lorsqu'il existait un vendangeoir appartenant à l'abbaye de Molesme.
+        p
+          | On devait y construire une piscine couverte utilisable pendant toutes les saisons à l'exception de l'hiver.
+          br
+          | Nous avons choisi de l'implanter le long du ruisseau, comme un rappel aux origines fondamentales de cette matière. Face à l'eau de la piscine, l'eau coule dans sa forme naturelle.
+        p
+          | Nous optons pour une construction sur pilotis, afin d'anticiper une éventuelle montée de l'eau.
+          br
+          | Le bâtiment se veut discret, il reste léger et transparent, de façon à se laisser transpercer par le paysage.
+      .col.col-overflow.close
+        p
+          | Ce projet s'inscrit dans un site chargé de signification, entre vieux bâtiments – moulin, granges, écuries–, jardins et vergers. Son occupation remonte à l'époque médiévale, lorsqu'il existait un vendangeoir appartenant à l'abbaye de Molesme.
+        p
+          | On devait y construire une piscine couverte utilisable pendant toutes les saisons à l'exception de l'hiver.
+          br
+          | Nous avons choisi de l'implanter le long du ruisseau, comme un rappel aux origines fondamentales de cette matière. Face à l'eau de la piscine, l'eau coule dans sa forme naturelle.
+        p
+          | Nous optons pour une construction sur pilotis, afin d'anticiper une éventuelle montée de l'eau.
+          br
+          | Le bâtiment se veut discret, il reste léger et transparent, de façon à se laisser transpercer par le paysage.
+
+
+    section.grid
+      .col-3
+        +poster('PHOTOS-02.jpg')
+      .col-3
+        +poster('PHOTOS-06.jpg')
+      
+      .col-6.contain
+        +poster('COUPES.jpg')
+      
+      .col-3
+        +poster('PHOTOS-04.jpg')
+      .col-3
+        +poster('PHOTOS-01b.jpg')
+      
+      .col-2
+        +poster('PHOTOS-03.jpg')
+      .col-4
+        +poster('PHOTOS-05.jpg')

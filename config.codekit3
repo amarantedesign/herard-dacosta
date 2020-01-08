@@ -1,0 +1,6603 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "F45FD547-0948-4DDA-993B-70913A68435B"
+		}
+	],
+"creatorBuild": "31934",
+"files": {
+	"/.editorconfig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/public/.editorconfig",
+		"oF": 1
+		},
+	"/.eslintignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/public/.eslintignore",
+		"oF": 1
+		},
+	"/.eslintrc.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/public/.eslintrc-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/public/.gitattributes",
+		"oF": 1
+		},
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/public/.gitignore",
+		"oF": 1
+		},
+	"/.prettierrc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/public/.prettierrc",
+		"oF": 1
+		},
+	"/herard-dacosta.code-workspace": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/herard-dacosta.code-workspace",
+		"oF": 0
+		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/public/node_modules",
+		"oF": 0
+		},
+	"/node_modules/bootstrap/scss/_functions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/_functions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/_reboot.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/_reboot.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_alert.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_alert.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_background-variant.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_background-variant.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_badge.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_badge.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_border-radius.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_border-radius.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_box-shadow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_box-shadow.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_breakpoints.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_breakpoints.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_caret.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_caret.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_clearfix.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_clearfix.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_deprecate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_deprecate.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_float.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_float.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_forms.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_forms.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_gradients.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_gradients.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_grid-framework.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_grid-framework.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_hover.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_hover.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_image.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_image.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_list-group.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_list-group.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_lists.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_lists.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_nav-divider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_nav-divider.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_pagination.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_pagination.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_reset-text.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_reset-text.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_resize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_resize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_screen-reader.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_screen-reader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_size.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_size.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_table-row.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_table-row.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_text-emphasis.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_text-emphasis.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_text-hide.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_text-hide.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_text-truncate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_text-truncate.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_transition.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_transition.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/mixins/_visibility.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/mixins/_visibility.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/vendor/_rfs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/bootstrap/scss/vendor/_rfs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/_base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/_base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/hamburgers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/hamburgers.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_3dx-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_3dx-r.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_3dx.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_3dx.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_3dxy-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_3dxy-r.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_3dxy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_3dxy.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_3dy-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_3dy-r.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_3dy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_3dy.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_arrow-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_arrow-r.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_arrow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_arrow.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_arrowalt-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_arrowalt-r.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_arrowalt.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_arrowalt.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_arrowturn-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_arrowturn-r.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_arrowturn.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_arrowturn.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_boring.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_boring.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_collapse-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_collapse-r.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_collapse.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_collapse.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_elastic-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_elastic-r.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_elastic.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_elastic.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_emphatic-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_emphatic-r.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_emphatic.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_emphatic.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_minus.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_minus.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_slider-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_slider-r.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_slider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_slider.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_spin-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_spin-r.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_spin.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_spin.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_spring-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_spring-r.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_spring.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_spring.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_squeeze.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_squeeze.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_stand-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_stand-r.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_stand.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_stand.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_vortex-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_vortex-r.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/hamburgers/_sass/hamburgers/types/_vortex.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/node_modules/hamburgers/_sass/hamburgers/types/_vortex.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/node_modules/lazysizes/lazysizes.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/public/node_modules/lazysizes/lazysizes-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/public/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/public/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/public": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/public/public",
+		"oF": 0
+		},
+	"/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/public/README.html",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/source/agence.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/agence.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/css/_bootstrap.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/css/_bootstrap.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/source/css/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/css/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/source/css/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/css/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/source/css/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/css/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/source/css/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/public/css/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/source/css/main.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/public/css/main.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/source/h&dc.code-workspace": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/public/h&dc.code-workspace",
+		"oF": 1
+		},
+	"/source/img/@0,5x_MGL0323.jpg": {
+		"ft": 16384,
+		"iS": 230659,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/img/@0,5x_MGL0323.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/img/@0,5xPHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 155276,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/img/@0,5xPHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/img/@0,5xPHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 188321,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/img/@0,5xPHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/img/@0,5xPHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 158147,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/img/@0,5xPHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/img/@0,5xPHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 225880,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/img/@0,5xPHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/img/_MGL0323.jpg": {
+		"ft": 16384,
+		"iS": 906417,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/img/_MGL0323.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 524886,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 693125,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 601482,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 756534,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/js/main.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "/public/js/main-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/source/partials": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/public/partials",
+		"oF": 0
+		},
+	"/source/partials/_contact.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/public/partials/_contact.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/partials/_footer.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/public/partials/_footer.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/partials/_head.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/public/partials/_head.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/partials/_header.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/public/partials/_header.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/atelier-des-lacs/img/@0,5xAtelierDesLacs.jpg": {
+		"ft": 16384,
+		"iS": 79243,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/@0,5xAtelierDesLacs.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/@0,5xCOUPES.jpg": {
+		"ft": 16384,
+		"iS": 80619,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/@0,5xCOUPES.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/@0,5xIMAGES-01.jpg": {
+		"ft": 16384,
+		"iS": 48008,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/@0,5xIMAGES-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/@0,5xIMAGES-02.jpg": {
+		"ft": 16384,
+		"iS": 73144,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/@0,5xIMAGES-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/@0,5xIMAGES-03.jpg": {
+		"ft": 16384,
+		"iS": 52385,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/@0,5xIMAGES-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/@0,5xPHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 171447,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/@0,5xPHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/@0,5xPHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 74879,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/@0,5xPHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/@0,5xPHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 42377,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/@0,5xPHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/@0,5xPHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 49520,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/@0,5xPHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/@0,5xPHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 53559,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/@0,5xPHOTOS-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/@0,5xPHOTOS-06.jpg": {
+		"ft": 16384,
+		"iS": 54806,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/@0,5xPHOTOS-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/@0,5xPLANMASSE.jpg": {
+		"ft": 16384,
+		"iS": 12147,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/@0,5xPLANMASSE.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/@0,5xPLANS.jpg": {
+		"ft": 16384,
+		"iS": 12899,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/@0,5xPLANS.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/AtelierDesLacs.jpg": {
+		"ft": 16384,
+		"iS": 449170,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/AtelierDesLacs.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/COUPES-1.jpg": {
+		"ft": 16384,
+		"iS": 133632,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/COUPES-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/COUPES.jpg": {
+		"ft": 16384,
+		"iS": 348992,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/COUPES.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/IMAGES-01.jpg": {
+		"ft": 16384,
+		"iS": 212902,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/IMAGES-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/IMAGES-02.jpg": {
+		"ft": 16384,
+		"iS": 384459,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/IMAGES-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/IMAGES-03.jpg": {
+		"ft": 16384,
+		"iS": 269728,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/IMAGES-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 7557710,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 449170,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 186268,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 221408,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/PHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 256781,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/PHOTOS-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/PHOTOS-06.jpg": {
+		"ft": 16384,
+		"iS": 277181,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/PHOTOS-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/PLANMASSE.jpg": {
+		"ft": 16384,
+		"iS": 59346,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/PLANMASSE.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/PLANS.jpg": {
+		"ft": 16384,
+		"iS": 64243,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/PLANS.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 150103,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/atelier-des-lacs/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/atelier-des-lacs/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/blanchisserie-brienne/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 913226,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/blanchisserie-brienne/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/blanchisserie-brienne/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 387001,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/blanchisserie-brienne/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/blanchisserie-brienne/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 489771,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/blanchisserie-brienne/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/blanchisserie-brienne/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 557293,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/blanchisserie-brienne/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/blanchisserie-brienne/img/PHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 511520,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/blanchisserie-brienne/img/PHOTOS-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/blanchisserie-brienne/img/PHOTOS-06.jpg": {
+		"ft": 16384,
+		"iS": 467512,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/blanchisserie-brienne/img/PHOTOS-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/blanchisserie-brienne/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 122555,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/blanchisserie-brienne/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/blanchisserie-brienne/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/blanchisserie-brienne/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/boulangerie-neuville/img/@0,5xFACADES.jpg": {
+		"ft": 16384,
+		"iS": 28450,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/@0,5xFACADES.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/@0,5xFACADES_ADMIN_Apr-26-151704-2015_Conflict.jpg": {
+		"ft": 16384,
+		"iS": 28450,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/@0,5xFACADES_ADMIN_Apr-26-151704-2015_Conflict.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/@0,5xIMAGES-01.jpg": {
+		"ft": 16384,
+		"iS": 65589,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/@0,5xIMAGES-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/@0,5xIMAGES-02.jpg": {
+		"ft": 16384,
+		"iS": 71719,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/@0,5xIMAGES-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/@0,5xPHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 43937,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/@0,5xPHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/@0,5xPHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 16038,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/@0,5xPHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/@0,5xPHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 47350,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/@0,5xPHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/@0,5xPHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 53262,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/@0,5xPHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/@0,5xPHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 19506,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/@0,5xPHOTOS-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/@0,5xPHOTOS-06.jpg": {
+		"ft": 16384,
+		"iS": 23268,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/@0,5xPHOTOS-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/@0,5xPHOTOS-07.jpg": {
+		"ft": 16384,
+		"iS": 45198,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/@0,5xPHOTOS-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/@0,5xPLANS.jpg": {
+		"ft": 16384,
+		"iS": 11506,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/@0,5xPLANS.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/@0,5xPLANS_ADMIN_Apr-26-151714-2015_Conflict.jpg": {
+		"ft": 16384,
+		"iS": 11506,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/@0,5xPLANS_ADMIN_Apr-26-151714-2015_Conflict.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/FACADES.jpg": {
+		"ft": 16384,
+		"iS": 95703,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/FACADES.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/FACADES_ADMIN_Apr-26-151704-2015_Conflict.jpg": {
+		"ft": 16384,
+		"iS": 95703,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/FACADES_ADMIN_Apr-26-151704-2015_Conflict.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/IMAGES-01.jpg": {
+		"ft": 16384,
+		"iS": 222150,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/IMAGES-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/IMAGES-02.jpg": {
+		"ft": 16384,
+		"iS": 242415,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/IMAGES-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 177489,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 58474,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 167297,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 184894,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/PHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 70853,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/PHOTOS-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/PHOTOS-06.jpg": {
+		"ft": 16384,
+		"iS": 88040,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/PHOTOS-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/PHOTOS-07.jpg": {
+		"ft": 16384,
+		"iS": 174526,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/PHOTOS-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/PLANS.jpg": {
+		"ft": 16384,
+		"iS": 35613,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/PLANS.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/PLANS_ADMIN_Apr-26-151714-2015_Conflict.jpg": {
+		"ft": 16384,
+		"iS": 35613,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/PLANS_ADMIN_Apr-26-151714-2015_Conflict.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 238951,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/boulangerie-neuville/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/boulangerie-neuville/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/chambre-agriculture-cotedor/img/FACADES.jpg": {
+		"ft": 16384,
+		"iS": 1152447,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/chambre-agriculture-cotedor/img/FACADES.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/chambre-agriculture-cotedor/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 682306,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/chambre-agriculture-cotedor/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/chambre-agriculture-cotedor/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 432846,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/chambre-agriculture-cotedor/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/chambre-agriculture-cotedor/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 630013,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/chambre-agriculture-cotedor/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/chambre-agriculture-cotedor/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 602399,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/chambre-agriculture-cotedor/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/chambre-agriculture-cotedor/img/PHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 816281,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/chambre-agriculture-cotedor/img/PHOTOS-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/chambre-agriculture-cotedor/img/PLAN.jpg": {
+		"ft": 16384,
+		"iS": 499996,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/chambre-agriculture-cotedor/img/PLAN.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/chambre-agriculture-cotedor/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 76802,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/chambre-agriculture-cotedor/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/chambre-agriculture-cotedor/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/chambre-agriculture-cotedor/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/controle-technique-poids-lourds/img/CTPoidsLourds.jpg": {
+		"ft": 16384,
+		"iS": 122106,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/controle-technique-poids-lourds/img/CTPoidsLourds.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/controle-technique-poids-lourds/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 439939,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/controle-technique-poids-lourds/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/controle-technique-poids-lourds/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 449613,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/controle-technique-poids-lourds/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/controle-technique-poids-lourds/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 520157,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/controle-technique-poids-lourds/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/controle-technique-poids-lourds/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 436880,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/controle-technique-poids-lourds/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/controle-technique-poids-lourds/img/PHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 600911,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/controle-technique-poids-lourds/img/PHOTOS-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/controle-technique-poids-lourds/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 122106,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/controle-technique-poids-lourds/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/controle-technique-poids-lourds/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/controle-technique-poids-lourds/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/hall-mere-enfant/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 726005,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/hall-mere-enfant/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/hall-mere-enfant/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 675613,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/hall-mere-enfant/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/hall-mere-enfant/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 652472,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/hall-mere-enfant/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/hall-mere-enfant/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 277600,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/hall-mere-enfant/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/hall-mere-enfant/img/PHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 404196,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/hall-mere-enfant/img/PHOTOS-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/hall-mere-enfant/img/PHOTOS-06.jpg": {
+		"ft": 16384,
+		"iS": 360368,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/hall-mere-enfant/img/PHOTOS-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/hall-mere-enfant/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 96278,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/hall-mere-enfant/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/hall-mere-enfant/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/hall-mere-enfant/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/logements-saint-memmie/img/COUPES.jpg": {
+		"ft": 16384,
+		"iS": 130224,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/logements-saint-memmie/img/COUPES.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/logements-saint-memmie/img/CPFC.jpg": {
+		"ft": 16384,
+		"iS": 118071,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/logements-saint-memmie/img/CPFC.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/logements-saint-memmie/img/FACADES.jpg": {
+		"ft": 16384,
+		"iS": 157612,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/logements-saint-memmie/img/FACADES.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/logements-saint-memmie/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 883234,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/logements-saint-memmie/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/logements-saint-memmie/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 605527,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/logements-saint-memmie/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/logements-saint-memmie/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 622050,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/logements-saint-memmie/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/logements-saint-memmie/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 974704,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/logements-saint-memmie/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/logements-saint-memmie/img/PHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 541767,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/logements-saint-memmie/img/PHOTOS-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/logements-saint-memmie/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 135036,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/logements-saint-memmie/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/logements-saint-memmie/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/logements-saint-memmie/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/maison-agence-herard-dacosta/img/DESSINS.jpg": {
+		"ft": 16384,
+		"iS": 966325,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-agence-herard-dacosta/img/DESSINS.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/maison-agence-herard-dacosta/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 512758,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-agence-herard-dacosta/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-agence-herard-dacosta/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 573328,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-agence-herard-dacosta/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-agence-herard-dacosta/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 1068631,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-agence-herard-dacosta/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-agence-herard-dacosta/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 409459,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-agence-herard-dacosta/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-agence-herard-dacosta/img/PHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 347290,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-agence-herard-dacosta/img/PHOTOS-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-agence-herard-dacosta/img/PHOTOS-06.jpg": {
+		"ft": 16384,
+		"iS": 545667,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-agence-herard-dacosta/img/PHOTOS-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-agence-herard-dacosta/img/PHOTOS-07.jpg": {
+		"ft": 16384,
+		"iS": 1100727,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-agence-herard-dacosta/img/PHOTOS-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-agence-herard-dacosta/img/thumb.jpg": {
+		"ft": 16384,
+		"iS": 8649,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-agence-herard-dacosta/img/thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/maison-agence-herard-dacosta/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 79849,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-agence-herard-dacosta/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-agence-herard-dacosta/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-agence-herard-dacosta/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/maison-cameleon/img/DESSINS.jpg": {
+		"ft": 16384,
+		"iS": 493631,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-cameleon/img/DESSINS.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/maison-cameleon/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 1208706,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-cameleon/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-cameleon/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 1199626,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-cameleon/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-cameleon/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 1230214,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-cameleon/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-cameleon/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 680416,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-cameleon/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-cameleon/img/PHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 871228,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-cameleon/img/PHOTOS-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-cameleon/img/PHOTOS-06.jpg": {
+		"ft": 16384,
+		"iS": 681980,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-cameleon/img/PHOTOS-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-cameleon/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 194465,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-cameleon/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-cameleon/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-cameleon/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/maison-charvot/img/@0,5xCOUPES.jpg": {
+		"ft": 16384,
+		"iS": 36553,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/@0,5xCOUPES.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/@0,5xIMAGES-01.jpg": {
+		"ft": 16384,
+		"iS": 80415,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/@0,5xIMAGES-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/@0,5xIMAGES-02.jpg": {
+		"ft": 16384,
+		"iS": 63094,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/@0,5xIMAGES-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/@0,5xPHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 36233,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/@0,5xPHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/@0,5xPHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 48966,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/@0,5xPHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/@0,5xPHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 32412,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/@0,5xPHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/@0,5xPHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 37755,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/@0,5xPHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/@0,5xPHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 58817,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/@0,5xPHOTOS-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/@0,5xPHOTOS-06.jpg": {
+		"ft": 16384,
+		"iS": 36028,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/@0,5xPHOTOS-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/@0,5xPHOTOS-07.jpg": {
+		"ft": 16384,
+		"iS": 40638,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/@0,5xPHOTOS-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/@0,5xPHOTOS-08.jpg": {
+		"ft": 16384,
+		"iS": 54030,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/@0,5xPHOTOS-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/@0,5xPHOTOS-09.jpg": {
+		"ft": 16384,
+		"iS": 48564,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/@0,5xPHOTOS-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/@0,5xPHOTOS-10.jpg": {
+		"ft": 16384,
+		"iS": 32038,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/@0,5xPHOTOS-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/@0,5xPLANS.jpg": {
+		"ft": 16384,
+		"iS": 20544,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/@0,5xPLANS.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/COUPES.jpg": {
+		"ft": 16384,
+		"iS": 122295,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/COUPES.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/IMAGES-01.jpg": {
+		"ft": 16384,
+		"iS": 293279,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/IMAGES-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/IMAGES-02.jpg": {
+		"ft": 16384,
+		"iS": 223401,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/IMAGES-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 760476,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 697945,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 738618,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 288195,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/PHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 922115,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/PHOTOS-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/PHOTOS-06.jpg": {
+		"ft": 16384,
+		"iS": 361873,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/PHOTOS-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/PHOTOS-07.jpg": {
+		"ft": 16384,
+		"iS": 460740,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/PHOTOS-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/PHOTOS-08.jpg": {
+		"ft": 16384,
+		"iS": 188087,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/PHOTOS-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/PHOTOS-09.jpg": {
+		"ft": 16384,
+		"iS": 186284,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/PHOTOS-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/PHOTOS-10.jpg": {
+		"ft": 16384,
+		"iS": 118982,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/PHOTOS-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/PLANS.jpg": {
+		"ft": 16384,
+		"iS": 57555,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/PLANS.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 64241,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-charvot/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-charvot/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/maison-dacosta/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 510005,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-dacosta/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/maison-dacosta/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-dacosta/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/maison-grange/img/COUPE.jpg": {
+		"ft": 16384,
+		"iS": 314712,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-grange/img/COUPE.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/maison-grange/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 464872,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-grange/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-grange/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 615473,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-grange/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-grange/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 433549,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-grange/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-grange/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 1164087,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-grange/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-grange/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 119360,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-grange/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-grange/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-grange/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/maison-nino/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 173844,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-nino/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-nino/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 452068,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-nino/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-nino/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 123575,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-nino/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-nino/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 153063,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-nino/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-nino/img/PHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 205526,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-nino/img/PHOTOS-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-nino/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 78378,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-nino/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-nino/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-nino/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/maison-serre/img/COUPES.jpg": {
+		"ft": 16384,
+		"iS": 962279,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-serre/img/COUPES.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/maison-serre/img/MaisonSerre.jpg": {
+		"ft": 16384,
+		"iS": 51726,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-serre/img/MaisonSerre.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/maison-serre/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 1658983,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-serre/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-serre/img/PLANS.jpg": {
+		"ft": 16384,
+		"iS": 310191,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-serre/img/PLANS.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-serre/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 282567,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-serre/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-serre/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-serre/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/maison-verpilleres/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 1848966,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-verpilleres/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-verpilleres/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 877008,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-verpilleres/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-verpilleres/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 616860,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-verpilleres/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-verpilleres/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 663036,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-verpilleres/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-verpilleres/img/PHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 596111,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-verpilleres/img/PHOTOS-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-verpilleres/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 145767,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-verpilleres/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maison-verpilleres/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maison-verpilleres/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/maisons-jumelles/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 87216,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maisons-jumelles/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/maisons-jumelles/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maisons-jumelles/index.html",
+		"oF": 0
+		},
+	"/source/projets/maisons-jumelles/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/maisons-jumelles/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/mediatheque-saint-lye/img/DESSINS.jpg": {
+		"ft": 16384,
+		"iS": 905213,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/mediatheque-saint-lye/img/DESSINS.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/mediatheque-saint-lye/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 954233,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/mediatheque-saint-lye/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/mediatheque-saint-lye/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 666174,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/mediatheque-saint-lye/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/mediatheque-saint-lye/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 668767,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/mediatheque-saint-lye/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/mediatheque-saint-lye/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 119112,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/mediatheque-saint-lye/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/mediatheque-saint-lye/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/mediatheque-saint-lye/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/pc-securite/img/DESSINS.jpg": {
+		"ft": 16384,
+		"iS": 79084,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/pc-securite/img/DESSINS.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/pc-securite/img/PHOTOS-01 copie.jpg": {
+		"ft": 16384,
+		"iS": 304051,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/pc-securite/img/PHOTOS-01 copie.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/pc-securite/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 257297,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/pc-securite/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/pc-securite/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 344190,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/pc-securite/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/pc-securite/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 370477,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/pc-securite/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/pc-securite/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 56315,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/pc-securite/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/pc-securite/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/pc-securite/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/piscine-sur-pilotis/img/@0,5xCOUPES.jpg": {
+		"ft": 16384,
+		"iS": 60252,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/@0,5xCOUPES.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/@0,5xFACADES.jpg": {
+		"ft": 16384,
+		"iS": 27551,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/@0,5xFACADES.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/@0,5xIMAGES-01.jpg": {
+		"ft": 16384,
+		"iS": 58967,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/@0,5xIMAGES-01.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/@0,5xIMAGES-02.jpg": {
+		"ft": 16384,
+		"iS": 20592,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/@0,5xIMAGES-02.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/@0,5xPHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 40492,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/@0,5xPHOTOS-01.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/@0,5xPHOTOS-01b.jpg": {
+		"ft": 16384,
+		"iS": 47055,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/@0,5xPHOTOS-01b.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/@0,5xPHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 49541,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/@0,5xPHOTOS-02.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/@0,5xPHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 47414,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/@0,5xPHOTOS-03.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/@0,5xPHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 58690,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/@0,5xPHOTOS-04.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/@0,5xPHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 81639,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/@0,5xPHOTOS-05.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/@0,5xPLANS.jpg": {
+		"ft": 16384,
+		"iS": 12735,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/@0,5xPLANS.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/Baudry.jpg": {
+		"ft": 16384,
+		"iS": 224485,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/Baudry.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/COUPES.jpg": {
+		"ft": 16384,
+		"iS": 213795,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/COUPES.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/FACADES.jpg": {
+		"ft": 16384,
+		"iS": 99834,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/FACADES.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/IMAGES-01.jpg": {
+		"ft": 16384,
+		"iS": 224637,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/IMAGES-01.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/IMAGES-02.jpg": {
+		"ft": 16384,
+		"iS": 79395,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/IMAGES-02.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 161330,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/PHOTOS-01.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/PHOTOS-01b.jpg": {
+		"ft": 16384,
+		"iS": 150109,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/PHOTOS-01b.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 188394,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/PHOTOS-02.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 177312,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/PHOTOS-03.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 243489,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/PHOTOS-04.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/PHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 339882,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/PHOTOS-05.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/PHOTOS-06.jpg": {
+		"ft": 16384,
+		"iS": 985422,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/PHOTOS-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/PLANS.jpg": {
+		"ft": 16384,
+		"iS": 37330,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/PLANS.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 75513,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/piscine-sur-pilotis/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/piscine-sur-pilotis/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/piscine-sur-pilotis/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/serre-en-ville/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 687563,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/serre-en-ville/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/serre-en-ville/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 704723,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/serre-en-ville/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/serre-en-ville/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 357483,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/serre-en-ville/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/serre-en-ville/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 623244,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/serre-en-ville/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/serre-en-ville/img/PHOTOS-05.jpg": {
+		"ft": 16384,
+		"iS": 347657,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/serre-en-ville/img/PHOTOS-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/serre-en-ville/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 51535,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/serre-en-ville/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/serre-en-ville/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/serre-en-ville/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/service-addictologie/img/@0,5xCOUPE.jpg": {
+		"ft": 16384,
+		"iS": 53359,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/@0,5xCOUPE.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/@0,5xFACADE-01.jpg": {
+		"ft": 16384,
+		"iS": 49929,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/@0,5xFACADE-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/@0,5xFACADE-02.jpg": {
+		"ft": 16384,
+		"iS": 19707,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/@0,5xFACADE-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/@0,5xPHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 171842,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/@0,5xPHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/@0,5xPHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 101383,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/@0,5xPHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/@0,5xPHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 75775,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/@0,5xPHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/@0,5xPHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 53075,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/@0,5xPHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/@0,5xPLAN.jpg": {
+		"ft": 16384,
+		"iS": 41038,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/@0,5xPLAN.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/@0,5xPLANMASSE.jpg": {
+		"ft": 16384,
+		"iS": 66755,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/@0,5xPLANMASSE.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/COUPE.jpg": {
+		"ft": 16384,
+		"iS": 164163,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/COUPE.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/FACADE-01.jpg": {
+		"ft": 16384,
+		"iS": 163488,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/FACADE-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/FACADE-02.jpg": {
+		"ft": 16384,
+		"iS": 56842,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/FACADE-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 254090,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 130734,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 81763,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 73388,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/PLAN.jpg": {
+		"ft": 16384,
+		"iS": 111079,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/PLAN.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/PLANMASSE.jpg": {
+		"ft": 16384,
+		"iS": 187939,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/PLANMASSE.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 193635,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/service-addictologie/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-addictologie/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/service-imagerie/img/1809_CHTroyes_08.jpg": {
+		"ft": 16384,
+		"iS": 8562750,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-imagerie/img/1809_CHTroyes_08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/service-imagerie/img/1809_CHTroyes_09.jpg": {
+		"ft": 16384,
+		"iS": 8009409,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-imagerie/img/1809_CHTroyes_09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/service-imagerie/img/1809_CHTroyes_10 copie.jpg": {
+		"ft": 16384,
+		"iS": 6880399,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-imagerie/img/1809_CHTroyes_10 copie.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/service-imagerie/img/1809_CHTroyes_10.jpg": {
+		"ft": 16384,
+		"iS": 7350115,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-imagerie/img/1809_CHTroyes_10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/service-imagerie/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 479256,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-imagerie/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/service-imagerie/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 487073,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-imagerie/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/service-imagerie/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 391806,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-imagerie/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/service-imagerie/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 38469,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-imagerie/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/service-imagerie/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-imagerie/index.html",
+		"oF": 0
+		},
+	"/source/projets/service-imagerie/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/service-imagerie/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/projets/village-vacances/img/PHOTOS-01.jpg": {
+		"ft": 16384,
+		"iS": 433800,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/village-vacances/img/PHOTOS-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/village-vacances/img/PHOTOS-02.jpg": {
+		"ft": 16384,
+		"iS": 422968,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/village-vacances/img/PHOTOS-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/village-vacances/img/PHOTOS-03.jpg": {
+		"ft": 16384,
+		"iS": 434322,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/village-vacances/img/PHOTOS-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/village-vacances/img/PHOTOS-04.jpg": {
+		"ft": 16384,
+		"iS": 502190,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/village-vacances/img/PHOTOS-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/village-vacances/img/vignette.jpg": {
+		"ft": 16384,
+		"iS": 82938,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/village-vacances/img/vignette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/projets/village-vacances/img/VillageVacances.jpg": {
+		"ft": 16384,
+		"iS": 199372,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/projets/village-vacances/img/VillageVacances.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/projets/village-vacances/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/village-vacances/index.html",
+		"oF": 0
+		},
+	"/source/projets/village-vacances/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/projets/village-vacances/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/settings/_layout.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/public/settings/_layout.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/settings/_mixins.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/public/settings/_mixins.html",
+		"oF": 0,
+		"oS": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 595503713.81709194,
+	"displayValue": "herard-dacosta",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "brackets-payne",
+	"iconImageWasSetByUser": 0
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"allowInjectionReloads": 1,
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelExcludeString": "/\\/node_modules\\//, /\\/core-js\\//, /\\/bower_components\\//",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"destructuring": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"dotall-regex": {
+			"active": 0
+			},
+		"duplicate-keys": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"for-of": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"instanceof": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
+			"active": 0
+			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"named-capturing-groups-regex": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"partial-application": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
+		"private-methods": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"regexp-constructors": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"remove-undefined": {
+			"active": 0
+			},
+		"reserved-words": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"template-literals": {
+			"active": 0
+			},
+		"throw-expressions": {
+			"active": 0
+			},
+		"typeof-symbol": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
+			}
+		},
+	"babelRetainLines": 0,
+	"babelUseBuiltInsType": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerForceLatestOnConflict": 1,
+	"bowerTargetDependencyListType": 1,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
+	"buildFolderActive": 1,
+	"buildFolderName": "public",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"environmentVariablesString": "NODE_ENV:::production",
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always', 'ignoreDestructuring': false}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"default-param-last": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'considerPropertyDescriptor': false, 'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always', {'generators': 'always'}"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true, 'ignoreDestructuring': false}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-between-class-members": {
+			"active": 0,
+			"optionString": "'always', {exceptAfterSingleLine: false}"
+			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': true}"
+			},
+		"no-console": {
+			"active": 0,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 1,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-import-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': true}"
+			},
+		"no-self-compare": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": "{'allowAtRootLevel': false}"
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": "{allowIndentationTabs: false}"
+			},
+		"no-template-curly-in-string": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 0,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true, 'consistent': true}, 'ObjectPattern': {'multiline': true, 'consistent': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowAllPropertiesOnSameLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-named-capture-group": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-regex-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-yield": {
+			"active": 1,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false, 'minKeys': 2}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http://localhost:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "offside:write",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
+		"quality": 100
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"bundleFormat": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 3,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
+		"enableJavascript": 0,
+		"mathStyle": 0,
+		"outputStyle": 0,
+		"rewriteURLStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 52780316221407
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 2,
+		"removeComments": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"npmAbbreviatedPath": "",
+	"npmCreatePackageLock": 1,
+	"npmInstallOptionalDependencies": 0,
+	"npmSaveExactVersion": 0,
+	"npmTargetDependencyListType": 1,
+	"overrideExternalServerCSS": 0,
+	"previewPathAddition": "",
+	"rollupExternals": "",
+	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
+	"rollupTreeshakingEnabled": 1,
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules, /source/content, /source/partials, /menu2019, /projets, /vignettesmenu, /vignettes menu",
+	"sourceFolderName": "source",
+	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"booleans_as_integers": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"braces": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"collapse_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"computed_props": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"hoist_props": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent_level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent_start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max_line_len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote_keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"shebang": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"uglifyMangleNames": 1,
+	"uglifyReservedNamesString": "$,exports,require",
+	"websiteRelativeRoot": "/public"
+	},
+"settingsFileVersion": "3"
+}

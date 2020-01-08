@@ -1,0 +1,7 @@
+nav.main-nav
+  button#infosPanelClose.hamburger.hamburger--minus.toggler-about(type='button')
+    span.hamburger-box
+      span.hamburger-inner
+  button.navbar-brand.toggler-about(type='button', aria-controls='aboutPanel') #{brandTitle}
+  ul.nav.nav-lang
+    +main-nav(navItems, slug)

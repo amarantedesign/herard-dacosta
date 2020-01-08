@@ -1,0 +1,318 @@
+@import "variables";
+@import "bootstrap";
+@import "mixins";
+
+@import "../../node_modules/hamburgers/_sass/hamburgers/hamburgers";
+
+@import "header";
+@import "footer";
+
+:root {
+  --body-color: #{$body-color};
+  --body-bg: #{$body-bg};
+  --body-bg-rgb: 255, 255, 255; // for background opacity with var
+  --secondary: #{$secondary};
+  --gutter-x: calc( #{$site-gutter-x} / 2);
+
+  // Mode sombre
+  @media (prefers-color-scheme: dark) {
+    --body-color: #{$white};
+    --body-bg: #{$gray-900};
+    --body-bg-rgb: 33, 37, 41; // -> #212529 (gray-900)
+    --secondary: #{$gray-300};
+  }
+
+  @media ( min-width: $breakpoint-main ) {
+    --gutter-x: #{$site-gutter-x};
+  }
+}
+
+body {
+  color: var(--body-color);
+  background: var(--body-bg);
+}
+
+//! Lazy Load
+// ==================================================
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 300ms;
+}
+
+img.lazyload:not([src]) {
+	visibility: hidden;
+}
+
+.sr-only {
+  @include sr-only;
+}
+
+//! Misc Typo
+// ==================================================
+.project-content {
+  ul {
+    list-style: none;
+    padding-left: 1rem;
+
+    li::before {
+      content: "\00b7";
+      padding-right: 0.13rem;
+    }
+  }
+
+  p + ul {
+    margin-top: -0.635rem;
+  }
+}
+
+.site-content {
+  padding-top: $header-height;
+  padding-bottom: 4 * $site-gutter-y;
+  margin-left: var(--gutter-x);
+  margin-right: var(--gutter-x);
+}
+
+//! Homepage Grid
+// ==================================================
+.home-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  margin-left:  - $grid-gutter-width / 2;
+  margin-right: - $grid-gutter-width / 2;
+
+  @media ( min-width: $breakpoint-main ) {
+    padding-left: 2vw;
+  }
+}
+
+.thumb {
+  position: relative;
+  display: inline-flex;
+  flex-flow: column wrap;
+  margin: $grid-gutter-width / 2;
+  overflow: hidden;
+
+  img {
+    //max-height: 22vh;
+    display: block;
+    max-width: calc(100vw - #{$grid-gutter-width});
+    height: 22vh;
+    object-fit: contain;
+    object-position: 50% 50%;
+  }
+
+  .caption {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    padding: 0.5rem;
+    color: $body-color;
+    backdrop-filter: blur(3px);
+    background-color: rgba($white, 0.7);
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    will-change: opacity;
+    text-overflow: ellipsis;
+    overflow: auto;
+  }
+
+  @include hover-focus {
+    .caption {
+      opacity: 1;
+    }
+  }
+}
+
+.poster {
+  margin-bottom: $grid-gutter-width;
+  img {
+    width: 100%;
+    height: auto;;
+  }
+}
+
+//! Project page
+// ==================================================
+.project-header .poster {
+  margin-top: - $header-height;
+  margin-left: calc( var(--gutter-x) * -1);
+  margin-right: calc( var(--gutter-x) * -1);
+  position: relative;
+
+  &::before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: $poster-ratio-sm;
+
+    @media ( min-width: $breakpoint-main ) {
+      padding-top: $poster-ratio;
+    }
+  }
+
+  > img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+}
+
+.project-title {
+  @include font-size($h2-font-size);
+}
+
+.infos {
+  @include font-size($small-font-size);
+  color: $secondary;
+  margin-bottom: $site-gutter-y * 2;
+
+  .contact {
+    display: inline-flex;
+  }
+  @media ( max-width: $breakpoint-main ) {
+    display: flex;
+    flex-direction: column;
+
+    .contact {
+      margin-bottom: 0.3rem;
+      .sep2 {
+        display: none;
+      }
+      .email {
+        margin-top: 0.3rem;
+        display: block;
+      }
+    }
+  }
+}
+
+.desc {
+  margin-bottom: $site-gutter-y;
+  @include font-size($small-font-size);
+
+  .col {
+    &:nth-child(2) {
+      color: $secondary;
+      font-style: italic;
+    }
+  
+    &:nth-child(3) {
+      font-style: italic;
+    }
+  }
+
+  @media ( min-width: $breakpoint-main ) {
+    @include make-row( $site-gutter-x );
+
+    .col {
+      @include make-col(3, $site-gutter-x);
+    }
+
+    .col-auto {
+      columns: 3;
+      column-gap: $site-gutter-x;
+      column-fill: balance;
+      padding-left: $site-gutter-x / 2;
+      padding-right: $site-gutter-x / 2;
+    }
+  }
+
+  @media ( max-width: $breakpoint-main ) {
+    .col {
+      margin-bottom: 0.15rem;
+    }
+  
+    .col-overflow.close {
+        @include make-overflow()
+    }
+  }
+}
+
+//! Images grid system
+// ==================================================
+.grid {
+  //@include make-row()
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  //grid-template-rows: repeat(auto-fill, 34.375rem); //550px;
+  //grid-template-rows: repeat(auto-fit, minmax(300px , 550px));
+  grid-auto-rows: fit-content($row-height-lg); //minmax(min-content, $row-height-lg);
+  grid-gap: 10px;
+  //grid-auto-flow: row dense;
+  align-items: stretch;
+
+  .poster {
+    margin: 0;
+    height: 100%;
+  }
+
+  img {
+    display: block;
+    height: 100%;
+    max-height: $row-height-lg;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  .contain {
+    background: var(--body-bg);
+
+    img {
+      object-fit: contain;
+      object-position: 0 50%;
+    }
+  }
+
+  .col-6 {
+    grid-column: span 6;
+  }
+
+  .col-4 {
+    grid-column: span 4;
+  }
+  
+  .col-2 {
+    grid-column: span 2;
+  }
+
+  .col-3 {
+    grid-column: span 3;
+  }
+
+  .row-2 {
+    grid-row: span 2;
+  }
+
+  .col-text {
+    @include font-size($small-font-size);
+  }
+  
+  @media ( max-width: $breakpoint-main ) {
+    //grid-template-rows: repeat(auto-fill, 10rem);
+    grid-auto-rows: minmax(min-content, $row-height-sm);
+
+    .poster { 
+      max-height: $row-height-sm;
+    }
+    .col-text {
+      grid-column: span 6;
+    }
+  }
+}
+

@@ -1,0 +1,43 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Chambre d'Agriculture de Côte-d'Or"
+
+block content
+  article.project-content(itemtype='https://schema.org/CreativeWork')
+    header.project-header
+      +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop='headline') #{pageTitle}
+      .infos
+        | bureaux / chatillon-sur-seine (10) / printemps 2015 / 400 m² shob / 445 000 € HT
+    
+    .desc(itemprop='text')
+      .col.col-overflow.close
+        p
+          | Le terrain se situe dans une zone d'activités au nord de la ville, sur la route nationale qui lie Châtillon-sur-Seine et Troyes. Le terrain bénéficie d'une grande visibilité, de plus qu'il donne sur un rond-point. Cette antenne de la Chambre d'Agriculture à Châtillon-sur-Seine fera environ 460 m2, alors que les bâtiments qui l'entourent font de 1000 à 8000 m2. Le problème qui se pose est : comment éviter que le bâtiment s'annule vis-à-vis des géants qui l'entourent.
+        p
+          | La parcelle est tronqué par un angle à 45º pour cause de l'emprise du rond-point. Cette limite sera l'hypoténuse de notre bâtiment de base triangulaire, ainsi la façade donnant sur la rotonde sera bien plus longue que sur une base rectangulaire. Cette façade sera un grand panneau publicitaire pour le bâtiment, son orientation est plutôt défavorable (nord-ouest) et sa localisation (proche de la route nationale) risque d'apporter des nuisances au bâtiment, alors, elle ne possède aucun percement.
+      .col.col-overflow.close
+        p
+          | Le terrain se situe dans une zone d'activités au nord de la ville, sur la route nationale qui lie Châtillon-sur-Seine et Troyes. Le terrain bénéficie d'une grande visibilité, de plus qu'il donne sur un rond-point. Cette antenne de la Chambre d'Agriculture à Châtillon-sur-Seine fera environ 460 m2, alors que les bâtiments qui l'entourent font de 1000 à 8000 m2. Le problème qui se pose est : comment éviter que le bâtiment s'annule vis-à-vis des géants qui l'entourent.
+        p
+          | La parcelle est tronqué par un angle à 45º pour cause de l'emprise du rond-point. Cette limite sera l'hypoténuse de notre bâtiment de base triangulaire, ainsi la façade donnant sur la rotonde sera bien plus longue que sur une base rectangulaire. Cette façade sera un grand panneau publicitaire pour le bâtiment, son orientation est plutôt défavorable (nord-ouest) et sa localisation (proche de la route nationale) risque d'apporter des nuisances au bâtiment, alors, elle ne possède aucun percement.
+      .col.col-overflow.close
+        p
+          | Le terrain se situe dans une zone d'activités au nord de la ville, sur la route nationale qui lie Châtillon-sur-Seine et Troyes. Le terrain bénéficie d'une grande visibilité, de plus qu'il donne sur un rond-point. Cette antenne de la Chambre d'Agriculture à Châtillon-sur-Seine fera environ 460 m2, alors que les bâtiments qui l'entourent font de 1000 à 8000 m2. Le problème qui se pose est : comment éviter que le bâtiment s'annule vis-à-vis des géants qui l'entourent.
+        p
+          | La parcelle est tronqué par un angle à 45º pour cause de l'emprise du rond-point. Cette limite sera l'hypoténuse de notre bâtiment de base triangulaire, ainsi la façade donnant sur la rotonde sera bien plus longue que sur une base rectangulaire. Cette façade sera un grand panneau publicitaire pour le bâtiment, son orientation est plutôt défavorable (nord-ouest) et sa localisation (proche de la route nationale) risque d'apporter des nuisances au bâtiment, alors, elle ne possède aucun percement.
+    section.grid
+      .col-3
+        +poster('PHOTOS-02.jpg')
+      .col-3
+        +poster('PHOTOS-03.jpg')
+      .col-3
+        +poster('PHOTOS-04.jpg')
+      .col-3
+        +poster('PHOTOS-05.jpg')
+      .col-3
+        +poster('FACADES.jpg')
+      .col-3
+        +poster('PLAN.jpg')

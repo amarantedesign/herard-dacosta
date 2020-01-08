@@ -1,0 +1,47 @@
+extends ./settings/_layout.jade
+
+block variables
+    - var lang = "fr";
+    - var htmlClass = "agence";
+    - var slug = "agence";
+    - var pageTitle = "Agence d'architecture Herard & da Costa architectes"
+
+block content
+  article.project-content(itemtype="https://schema.org/CreativeWork")
+    header.project-header.had-ratio.full
+      +poster('PHOTOS-01.jpg', responsive)
+    
+      h1.project-title(itemprop="headline") #{pageTitle}
+
+      .infos
+        include partials/_contact.jade
+
+    .desc(itemprop="text")
+      .col-auto.col-overflow.close
+        p crée le 01/01/2009<br>par Frédéric HERARD et Natalina DA COSTA
+        p Frédéric Hérard est né le 20 février 1979 à Troyes (France). Il a grandit dans un petit village de l’Aube (Neuville-sur-Seine). Après avoir obtenu son diplôme à l’École d’Architecture de la Ville et des Territoires de Marne-La-Vallée (France) il a travaillé chez Lacaton & Vassal architectes jusqu’en 2008.
+
+        p Natalina da Costa est née le 21 aout 1977 à Villeneuve-Saint-Georges (France). 
+        p En 1983 elle retourne vivre au Portugal. Elle fera des études à la Faculté d’Architecture de Porto (Portugal), elle reviendra en France pour travailler chez Lacaton & Vassal architectes en 2007.
+
+    section.grid
+      .col-3
+        +poster('PHOTOS-04.jpg')
+      .col-3
+        +poster('PHOTOS-03.jpg')
+      
+      .col-3.col-text
+        h4 PRIX & RÉCOMPENSES
+        p ARCHICONTEMPORAINE EN CHAMPAGNE-ARDENNE 2014 de la Maison de l'Architecture de Champagne-Ardenne, lauréat du Palmarès
+        p PRÉMIO CONCRETA 40, organisé par EXPONOR - Feira Internacional do Porto, mention BAKU INTERNATIONAL AWARD, 3rd Édition, organisé par l’Union des Architectes de la République d’Azerbaijan, 2ème prix dans la catégorie Best implemented project in the architecture of residential buildings.
+
+      .col-3.col-text
+        h4 EXPOSITIONS
+        p ARCHITECTURE CONTEMPORAINE ET QUALITE ENVIRONNEMENTALE, exposition réalisée par l’Ordre des Architectes Champagne-Ardenne pour le salon SABINE 2010 (Salon du Bâtiment Innovant du Nord-est) 10 ARCHITECTURES RESPONSABLES, exposition réalisée par l’Ordre des Architectes Champagne-Ardenne, mai 2012
+      
+      .col-6
+        +poster('PHOTOS-02.jpg')
+      
+
+
+

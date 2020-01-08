@@ -1,0 +1,50 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Maison Grange"
+
+block content
+  article.project-content(itemtype='https://schema.org/CreativeWork')
+    header.project-header
+      +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop='headline') #{pageTitle}
+      .infos
+        | logement individuel / brévonnes (10) / 2011 / 180 m² shob / 230 000 € ht
+
+    .desc(itemprop='text')
+      .col.col-overflow.close
+        p
+          | Nous sommes dans le Parc Régional des Lacs de la Forêt d'Orient, la forme de la maison s'inspire de l'architecture vernaculaire locale, et résulte des contraintes du POS. 
+          br
+          | Le terrain étant long et étroit, la maison s'implante sur la limite de propriété ouest. L'accès à la maison se fait par un patio dissimulé derrière une fausse façade (est).
+        p
+          | Le système constructif est le même que celui des vieilles granges, une ossature recouverte par un bardage, un système particulièrement adapté au site, car le sol est humide et argileux; seulement ici, le métal remplace le bois.
+      .col.col-overflow.close
+        p
+          | Nous sommes dans le Parc Régional des Lacs de la Forêt d'Orient, la forme de la maison s'inspire de l'architecture vernaculaire locale, et résulte des contraintes du POS. 
+          br
+          | Le terrain étant long et étroit, la maison s'implante sur la limite de propriété ouest. L'accès à la maison se fait par un patio dissimulé derrière une fausse façade (est).
+        p
+          | Le système constructif est le même que celui des vieilles granges, une ossature recouverte par un bardage, un système particulièrement adapté au site, car le sol est humide et argileux; seulement ici, le métal remplace le bois.
+      .col.col-overflow.close
+        p
+          | Nous sommes dans le Parc Régional des Lacs de la Forêt d'Orient, la forme de la maison s'inspire de l'architecture vernaculaire locale, et résulte des contraintes du POS. 
+          br
+          | Le terrain étant long et étroit, la maison s'implante sur la limite de propriété ouest. L'accès à la maison se fait par un patio dissimulé derrière une fausse façade (est).
+        p
+          | Le système constructif est le même que celui des vieilles granges, une ossature recouverte par un bardage, un système particulièrement adapté au site, car le sol est humide et argileux; seulement ici, le métal remplace le bois.
+
+
+    section.grid
+      .col-3
+        +poster('PHOTOS-02.jpg')
+      .col-3
+        +poster('PHOTOS-03.jpg')
+      .col-6
+        +poster('COUPE.jpg')
+
+
+
+
+  

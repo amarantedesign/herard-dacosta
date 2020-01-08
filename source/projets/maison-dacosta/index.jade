@@ -1,0 +1,43 @@
+extends ../../settings/_layout.jade
+
+block variables
+    - var htmlClass = "projet";
+    - var pageTitle = "Maison Vieira-da Costa"
+
+block content
+  article.project-content(itemtype='https://schema.org/CreativeWork')
+    header.project-header
+      +poster('PHOTOS-01.jpg')
+      h1.project-title(itemprop='headline') #{pageTitle}
+      .infos
+        | résidence secondaire / neuville-sur-seine (10) / été 2013 / 76 m² maison + 40 m² extérieurs / 40 000 € HT
+
+    .desc(itemprop='text')
+      .col.col-overflow.close
+        p
+          | La maison ancienne a été rénové, elle se développe sur quatre niveaux : cave, séjour + sdb, salon + chambre à l’étage et chambre en grenier. La particularité de ce bâtiment est l’accès au rez de chaussée au niveau de la rue et l’accès à la cave au niveau de la partie basse du jardin tout en laissant un espace de proximité avec la rivière. 
+          br
+          | La maison authentique a eu un ajout d’une construction en charpente métallique et en polycarbonate pour offrir un espace intermédiaire entre intérieur et extérieur.
+      .col.col-overflow.close
+        p
+          | La maison ancienne a été rénové, elle se développe sur quatre niveaux : cave, séjour + sdb, salon + chambre à l’étage et chambre en grenier. La particularité de ce bâtiment est l’accès au rez de chaussée au niveau de la rue et l’accès à la cave au niveau de la partie basse du jardin tout en laissant un espace de proximité avec la rivière. 
+          br
+          | La maison authentique a eu un ajout d’une construction en charpente métallique et en polycarbonate pour offrir un espace intermédiaire entre intérieur et extérieur.
+      .col.col-overflow.close
+        p
+          | La maison ancienne a été rénové, elle se développe sur quatre niveaux : cave, séjour + sdb, salon + chambre à l’étage et chambre en grenier. La particularité de ce bâtiment est l’accès au rez de chaussée au niveau de la rue et l’accès à la cave au niveau de la partie basse du jardin tout en laissant un espace de proximité avec la rivière. 
+          br
+          | La maison authentique a eu un ajout d’une construction en charpente métallique et en polycarbonate pour offrir un espace intermédiaire entre intérieur et extérieur.
+
+    section.grid
+      .col-3
+        +poster('PHOTOS-02.jpg')
+      .col-3
+        +poster('PHOTOS-03.jpg')
+      .col-6
+        +poster('DESSINS.jpg')
+
+
+
+
+  
